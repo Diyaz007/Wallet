@@ -13,7 +13,19 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity_profile_Page_daniyar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_go_back_daniyar"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Email_Confirmation"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_create_account_2_"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Create_Account"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

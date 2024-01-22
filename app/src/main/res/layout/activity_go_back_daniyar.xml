@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="430sp"
+    android:layout_height="920sp"
+    tools:context=".Activity_go_back_daniyar"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="398sp"
+        android:layout_height="105sp"
+        android:gravity="center"
+        android:text="@string/we_have_sent_an_email_confirmation_link_to_some_mail_com_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="397sp"
+        android:layout_height="55sp"
+        android:background="@drawable/button_background_daniyar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
