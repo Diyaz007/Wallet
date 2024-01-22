@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Wallet</string>
+    <string name="buy_inBuySlide">Buy</string>
+    <string name="showAllNetworks_buySlide">All Networks</string>
+    <string name="btc_islam_text">BTC</string>
+    <string name="eth_islam_text">ETH</string>
+    <string name="bnb_islam_text">BnB</string>
+    <string name="matic_islam_text">MATIC</string>
+    <string name="bnbtwo_islam_text">BNB</string>
+    <string name="xrp_islam_text">XRP</string>
+    <string name="bch_islam_text">BCH</string>
+    <string name="ltc_islam_text">LTC</string>
+    <string name="xlm_islam_text">XLM</string>
+    <string name="price_all_crypto">0,00 $</string>
+    <string name="zero_islam_text">0</string>
 </resources>
