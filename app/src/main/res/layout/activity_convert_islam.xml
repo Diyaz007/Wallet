@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".convert_islam">
+
+    <TextView
+        android:id="@+id/mainText_convertIslam"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10sp"
+        android:gravity="center"
+        android:text="@string/swap_convert_slide"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <LinearLayout
+        android:id="@+id/FirstLayout_convertIslam"
+        android:layout_width="360sp"
+        android:layout_height="120dp"
+        android:background="@drawable/background_islam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099">
+
+        <TextView
+            android:id="@+id/youPay_firstLayout"
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="15sp"
+            android:text="@string/youPay_firstLayout_islam"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/zero_firstLayout"
+            android:layout_width="11dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-80sp"
+            android:layout_marginTop="47sp"
+            android:gravity="center"
+            android:text="@string/zero_islam_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/wallet_FirstLayout"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="-12sp"
+            android:layout_marginTop="80sp"
+            android:background="@drawable/walletimageislam"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/secondZero_FirstLayout"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="80sp"
+            android:text="@string/zero_islam_text"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ftmLogoIslam_FirstLayout"
+            android:layout_width="35sp"
+            android:layout_height="37dp"
+            android:layout_marginStart="170sp"
+            android:layout_marginTop="42sp"
+            android:background="@drawable/ftmislamlogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ftmIslam_firstLayout"
+            android:layout_width="45sp"
+            android:layout_height="23dp"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="45sp"
+            android:text="@string/ftm_islam_text"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ftmImageButton_firstLayout"
+            android:layout_width="18sp"
+            android:layout_height="22sp"
+            android:layout_marginTop="47sp"
+            android:background="@drawable/button_islam_convert"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/swappingTwoLayouts_islam"
+        android:layout_width="30sp"
+        android:layout_height="40sp"
+        android:background="@drawable/swap_two_layouts_islam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <LinearLayout
+        android:id="@+id/SecondLayout_convertIslam"
+        android:layout_width="360sp"
+        android:layout_height="120dp"
+        android:background="@drawable/background_islam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361">
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="15sp"
+            android:text="@string/YouGet_SecondLayout_islam"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/zero_secondLayout"
+            android:layout_width="11dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-80sp"
+            android:layout_marginTop="47sp"
+            android:gravity="center"
+            android:text="@string/zero_islam_text"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/wallet_secondLayout"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="-12sp"
+            android:layout_marginTop="80sp"
+            android:background="@drawable/walletimageislam"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/secondZero_secondLayout"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="80sp"
+            android:text="@string/zero_islam_text"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/aaveLogoIslam_secondLayout"
+            android:layout_width="35sp"
+            android:layout_height="37dp"
+            android:layout_marginStart="170sp"
+            android:layout_marginTop="42sp"
+            android:background="@drawable/aaveislamlogo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/aaveIslam_secondLayout"
+            android:layout_width="50sp"
+            android:layout_height="23dp"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="39sp"
+            android:text="@string/aave_islam_text"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fantomAaveIslam_secondLayout"
+            android:layout_width="60sp"
+            android:layout_height="23dp"
+            android:layout_marginStart="-50sp"
+            android:layout_marginTop="55sp"
+            android:text="@string/fantom_aave_islam_text"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ImageButtonSecondLayout"
+            android:layout_width="18sp"
+            android:layout_height="22sp"
+            android:layout_marginStart="-5sp"
+            android:layout_marginTop="47sp"
+            android:background="@drawable/button_islam_convert"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button_convertSlideIslam"
+        android:layout_width="370sp"
+        android:layout_height="50sp"
+        android:backgroundTint="#00A991"
+        android:gravity="center"
+        android:text="@string/buttonTextIslam_convertSlide"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/quoteIslam_convertSlide"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10sp"
+        android:gravity="center"
+        android:text="@string/quote_convert_islam_text"
+        android:textColor="#BFBFBF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+
+    <TextView
+        android:id="@+id/quoteContinuingIslamConvertSlide"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10sp"
+        android:gravity="center"
+        android:text="@string/quote_continuing_islam_text"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+
+    <ImageView
+        android:id="@+id/swapping_horizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/swap_two_layouts_islam_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
