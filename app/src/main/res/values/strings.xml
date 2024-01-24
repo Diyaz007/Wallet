@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Wallet</string>
+    <string name="receiveMainTextGetIslam">Receive</string>
+    <string name="searchHintGetIslam">Search</string>
+    <string name="all_networks_get_islam">All Networks</string>
+    <string name="bitcoin_getIslam">Bitcoin</string>
+    <string name="btc_getislam">BTC</string>
+    <string name="ethIslamGet">ETH</string>
+    <string name="ethereumIslamGet">Ethereum</string>
+    <string name="bnbIslamGet">BNB</string>
+    <string name="bnbDescribeIslamGet">BNB Smart Chain</string>
+    <string name="twtbnbtextGet">TWT BNB Smart Chain</string>
+    <string name="twtbnbpricetextGet">Trust Wallet</string>
+    <string name="maticTextIslamGet">MATIC</string>
+    <string name="polygonMaticIslamGet">Polygon</string>
+    <string name="bnbSecondTextGet">BNB Beacon Chain</string>
+    <string name="xrpIslamGet">XRP</string>
+    <string name="xrpTextIslamGet">XrP</string>
+    <string name="bchIslamGet">BCH</string>
+    <string name="bchTextIslamGet">Bitcoin Cash</string>
+    <string name="ltcIslamGet">LTC</string>
+    <string name="litecoinTextIslammGet">Litecoin</string>
+    <string name="zero_islam_textGet">0</string>
+    <string name="price_all_cryptoGet">0,00 $</string>
+    <string name="xlmIslamGet">XLM</string>
+    <string name="xlmTextIslamGet">Stellar</string>
+    <string name="trxIslamGet">TRX</string>
+    <string name="trxTextIslamGet">Tron</string>
 </resources>
