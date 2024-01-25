@@ -46,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.034"
-            android:contentDescription="@string/backbuttonislamget" />
+            android:contentDescription="@string/backButtonIslamGet" />
 
         <EditText
             android:id="@+id/edit_text_send_islam"
@@ -56,6 +56,7 @@
             android:hint="@string/searchHintGetIslam"
             android:textColorHint="#877E7E"
             android:paddingStart="15sp"
+            android:autofillHints="username"
             android:textColor="@color/black"
             android:paddingEnd="0sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -91,7 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.155"
-            android:contentDescription="@string/openallnetworksislamget" />
+            android:contentDescription="@string/openAllNetworksIslamGet" />
 
         <ImageView
             android:id="@+id/ImageIslamSend"
@@ -126,7 +127,7 @@
             android:layout_width="250sp"
             android:layout_height="50sp"
             android:background="@drawable/islamsendbutton"
-            android:text="@string/buttonislamsend"
+            android:text="@string/buttonIslamSend"
             android:textSize="17sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

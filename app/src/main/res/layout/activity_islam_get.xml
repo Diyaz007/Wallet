@@ -47,7 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.034"
-            android:contentDescription="@string/backbuttonislamget" />
+            android:contentDescription="@string/backButtonIslamGet" />
 
         <EditText
             android:id="@+id/edit_text_get_islam"
@@ -92,7 +92,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.155"
-            android:contentDescription="@string/openallnetworksislamget" />
+            android:contentDescription="@string/openAllNetworksIslamGet" />
 
 
         <ImageView
@@ -216,7 +216,7 @@
             android:id="@+id/allCrypto_TwtBnb"
             android:layout_width="160sp"
             android:layout_height="20dp"
-            android:text="@string/twtbnbtextGet"
+            android:text="@string/twtBnbTextGet"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold"
@@ -231,7 +231,7 @@
             android:id="@+id/allCrypto_TwtBnbPrice"
             android:layout_width="100sp"
             android:layout_height="20dp"
-            android:text="@string/twtbnbpricetextGet"
+            android:text="@string/twtBnbPriceTextGet"
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -431,7 +431,7 @@
             android:id="@+id/allCrypto_ltcTextIslamGet"
             android:layout_width="150sp"
             android:layout_height="20dp"
-            android:text="@string/litecoinTextIslammGet"
+            android:text="@string/liteCoinTextIslamGet"
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -844,7 +844,7 @@
             android:id="@+id/allCrypto_btcGet"
             android:layout_width="30sp"
             android:layout_height="20dp"
-            android:text="@string/btc_getislam"
+            android:text="@string/btc_getIslam"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold"
