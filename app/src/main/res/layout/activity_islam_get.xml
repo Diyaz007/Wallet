@@ -36,8 +36,8 @@
 
         <ImageButton
             android:id="@+id/button_back_get_islam"
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
             android:background="@drawable/back_buttton_get_islam"
             android:backgroundTint="#605C5C"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +45,8 @@
             app:layout_constraintHorizontal_bias="0.04"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.034" />
+            app:layout_constraintVertical_bias="0.034"
+            android:contentDescription="@string/backbuttonislamget" />
 
         <EditText
             android:id="@+id/edit_text_get_islam"
@@ -87,7 +88,8 @@
             app:layout_constraintHorizontal_bias="0.369"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.155" />
+            app:layout_constraintVertical_bias="0.155"
+            android:contentDescription="@string/openallnetworksislamget" />
 
 
         <ImageView
@@ -515,6 +517,21 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.862" />
 
+
+        <TextView
+            android:id="@+id/bnb_secondPriceGet2"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="@string/price_all_cryptoGet"
+            android:textColor="#BFBFBF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.956"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.364" />
+
         <TextView
             android:id="@+id/eth_secondPriceGet1"
             android:layout_width="11dp"
@@ -525,10 +542,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.277" />
+            app:layout_constraintVertical_bias="0.278" />
 
         <TextView
             android:id="@+id/eth_secondPriceGet2"
@@ -539,11 +556,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.3" />
-
+            app:layout_constraintVertical_bias="0.301" />
 
         <TextView
             android:id="@+id/xlm_secondPriceGet1"
@@ -555,10 +571,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.779" />
+            app:layout_constraintVertical_bias="0.78" />
 
         <TextView
             android:id="@+id/xlm_secondPriceGet2"
@@ -569,10 +585,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.802" />
+            app:layout_constraintVertical_bias="0.803" />
 
         <TextView
             android:id="@+id/btc_secondPriceGet1"
@@ -584,7 +600,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.209" />
@@ -598,10 +614,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.233" />
+            app:layout_constraintVertical_bias="0.234" />
 
         <TextView
             android:id="@+id/trx_secondPriceGet1"
@@ -613,10 +629,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.838" />
+            app:layout_constraintVertical_bias="0.839" />
 
         <TextView
             android:id="@+id/trx_secondPriceGet2"
@@ -627,10 +643,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.861" />
+            app:layout_constraintVertical_bias="0.862" />
 
         <TextView
             android:id="@+id/bnb_secondPriceGet1"
@@ -642,39 +658,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.339" />
-
-        <TextView
-            android:id="@+id/bnb_secondPriceGet2"
-            android:layout_width="40dp"
-            android:layout_height="18dp"
-            android:gravity="center"
-            android:text="@string/price_all_cryptoGet"
-            android:textColor="#BFBFBF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.363" />
-
-        <TextView
-            android:id="@+id/twtbnb_secondPriceGet1"
-            android:layout_width="11dp"
-            android:layout_height="18dp"
-            android:gravity="center"
-            android:text="@string/zero_islam_textGet"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.407" />
 
         <TextView
             android:id="@+id/twtbnb_secondPriceGet2"
@@ -685,10 +672,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.428" />
+            app:layout_constraintVertical_bias="0.429" />
 
         <TextView
             android:id="@+id/matic_secondPriceGet1"
@@ -700,10 +687,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.471" />
+            app:layout_constraintVertical_bias="0.472" />
 
         <TextView
             android:id="@+id/matic_secondPriceGet2"
@@ -714,10 +701,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.493" />
+            app:layout_constraintVertical_bias="0.494" />
 
         <TextView
             android:id="@+id/bnbSecond_secondPriceGet1"
@@ -729,10 +716,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.531" />
+            app:layout_constraintVertical_bias="0.532" />
 
         <TextView
             android:id="@+id/bnbSecond_secondPriceGet2"
@@ -743,10 +730,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.554" />
+            app:layout_constraintVertical_bias="0.555" />
 
         <TextView
             android:id="@+id/xrp_secondPriceGet1"
@@ -758,10 +745,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.597" />
+            app:layout_constraintVertical_bias="0.598" />
 
         <TextView
             android:id="@+id/xrp_secondPriceGet2"
@@ -772,10 +759,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.618" />
+            app:layout_constraintVertical_bias="0.619" />
 
         <TextView
             android:id="@+id/bch_secondPriceGet1"
@@ -787,10 +774,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.66" />
+            app:layout_constraintVertical_bias="0.661" />
 
         <TextView
             android:id="@+id/bch_secondPriceGet2"
@@ -801,10 +788,10 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.683" />
+            app:layout_constraintVertical_bias="0.684" />
 
         <TextView
             android:id="@+id/ltc_secondPriceGet1"
@@ -816,7 +803,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintHorizontal_bias="0.96"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.717" />
@@ -830,10 +817,25 @@
             android:textColor="#BFBFBF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintHorizontal_bias="0.956"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.741" />
+            app:layout_constraintVertical_bias="0.742" />
+
+        <TextView
+            android:id="@+id/twtbnb_secondPriceGet1"
+            android:layout_width="11dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:text="@string/zero_islam_textGet"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.408" />
 
         <TextView
             android:id="@+id/allCrypto_btcGet"
@@ -849,6 +851,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.211" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

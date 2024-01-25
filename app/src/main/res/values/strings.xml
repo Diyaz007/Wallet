@@ -26,4 +26,6 @@
     <string name="xlmTextIslamGet">Stellar</string>
     <string name="trxIslamGet">TRX</string>
     <string name="trxTextIslamGet">Tron</string>
+    <string name="backbuttonislamget">backButtonIslamGet</string>
+    <string name="openallnetworksislamget">openAllNetworksIslamGet</string>
 </resources>
