@@ -28,4 +28,7 @@
     <string name="trxTextIslamGet">Tron</string>
     <string name="backbuttonislamget">backButtonIslamGet</string>
     <string name="openallnetworksislamget">openAllNetworksIslamGet</string>
+    <string name="MainTextSendIslam">Send</string>
+    <string name="islamImageText">No assets found</string>
+    <string name="buttonislamsend">Buy cryptocurrency</string>
 </resources>
