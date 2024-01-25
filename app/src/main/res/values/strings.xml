@@ -31,4 +31,5 @@
     <string name="MainTextSendIslam">Send</string>
     <string name="islamImageText">No assets found</string>
     <string name="buttonislamsend">Buy cryptocurrency</string>
+    <string name="send_image_islam_description">send_image_islam</string>
 </resources>
