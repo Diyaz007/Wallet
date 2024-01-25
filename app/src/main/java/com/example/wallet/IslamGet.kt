@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class islam_get : AppCompatActivity() {
+class IslamGet : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_islam_get)
     }
 
     fun onClickGoMain(view : View) {
-        val intent = Intent(this, islam_send::class.java)
+        val intent = Intent(this, IslamSend::class.java)
         startActivity(intent)
     }
 }
