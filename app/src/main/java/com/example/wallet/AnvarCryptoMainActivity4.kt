@@ -1,11 +1,13 @@
 package com.example.wallet
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+
+class AnvarCryptoMainActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_anvar_crypto_main4)
     }
 }

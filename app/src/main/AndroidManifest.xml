@@ -13,7 +13,28 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".AnvarCryptoMainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityProfilePageSeven"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityProfilePageSix"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityProfilePageFive"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
