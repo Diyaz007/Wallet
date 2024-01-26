@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Wallet</string>
     <string name="wallet">Wallet</string>
+    <string name="wallet2">Wallet</string>
+    <string name="welcome_back">Welcome,back!</string>
+    <string name="enter_your_e_mail_addres">Enter your e-mail addres</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="password">Password</string>
 </resources>
