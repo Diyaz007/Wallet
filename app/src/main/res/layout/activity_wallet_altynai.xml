@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.47"
-        android:contentDescription="Wallet_Altynai" />
+        android:contentDescription="@string/wallet_altynai" />
 
     <TextView
         android:layout_width="156dp"
