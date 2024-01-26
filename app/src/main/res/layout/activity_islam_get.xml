@@ -80,20 +80,20 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.151" />
 
+
         <ImageButton
             android:id="@+id/openButton_allNetworks_islam_getSlide"
             android:layout_width="9sp"
             android:layout_height="9dp"
             android:layout_marginTop="2sp"
             android:background="@drawable/subtract_button_islam_get"
+            android:contentDescription="@string/openAllNetworksIslamGet"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintHorizontal_bias="0.363"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.155"
-            android:contentDescription="@string/openAllNetworksIslamGet" />
-
+            app:layout_constraintVertical_bias="0.154" />
 
         <ImageView
             android:id="@+id/Crypto_btcImageGet"
