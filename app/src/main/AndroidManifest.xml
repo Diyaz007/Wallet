@@ -19,7 +19,7 @@
         <activity
             android:name=".IslamGet"
             android:exported="true">
-            <intent-filter>
+            <intent-filter tools:node="removeAll">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
