@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wallet</string>
+    <string name="app_name_i">Wallet</string>
     <string name="receiveMainTextGetIslam">Receive</string>
     <string name="searchHintGetIslam">Search</string>
     <string name="all_networks_get_islam">All Networks</string>
