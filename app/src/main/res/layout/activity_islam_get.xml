@@ -40,6 +40,7 @@
             android:layout_height="22dp"
             android:background="@drawable/back_button_buy"
             android:backgroundTint="#605C5C"
+            android:onClick="onClickGoMain3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.04"
