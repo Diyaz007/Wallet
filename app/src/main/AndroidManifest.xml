@@ -13,12 +13,14 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".IslamGet"
+            android:exported="false" />
+        <activity
             android:name=".convert_islam"
             android:exported="false" />
         <activity
             android:name=".buy_activity_islam"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
