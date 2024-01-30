@@ -67,4 +67,12 @@
     <string name="islamImageText">No assets found</string>
     <string name="buttonIslamSend">Buy cryptocurrency</string>
     <string name="send_image_islam_description">send_image_islam</string>
+    <string name="ButtonGoToAave">GoToAave</string>
+    <string name="GoToFTMButton">GoToFTM</string>
+    <string name="imageaaveconvert">ImageAaveConvert</string>
+    <string name="ImageFTMConvert">ImageFTMConvert</string>
+    <string name="SwapVertivalConvert">SwapVertivalConvert</string>
+    <string name="swapHorizontalConvert">SwapHorizontalConvert</string>
+    <string name="ImageWalletFTMConvert">ImageWalletFTMConvert</string>
+    <string name="ImageWalletAAVEConvert">ImageWalletAAVEConvert</string>
 </resources>
