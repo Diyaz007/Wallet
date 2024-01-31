@@ -24,4 +24,6 @@
     <string name="_3">3</string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="google">google</string>
+    <string name="backbuttonaltynaiDescription">backbuttonaltynai</string>
+    <string name="buttonbackaltynai">buttonbackaltynai</string>
 </resources>

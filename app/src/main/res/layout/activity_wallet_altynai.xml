@@ -21,6 +21,7 @@
         android:contentDescription="@string/wallet_altynai" />
 
     <TextView
+        android:id="@+id/walletAltynai"
         android:layout_width="156dp"
         android:layout_height="54dp"
         android:layout_marginBottom="356dp"
