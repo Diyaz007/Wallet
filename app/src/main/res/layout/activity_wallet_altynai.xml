@@ -8,7 +8,7 @@
     tools:context=".Wallet_altynai">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ImageWalletAltynai"
         android:layout_width="92dp"
         android:layout_height="96dp"
         android:background="@drawable/logoaltynai"
@@ -21,7 +21,7 @@
         android:contentDescription="@string/wallet_altynai" />
 
     <TextView
-        android:id="@+id/walletAltynai"
+        android:id="@+id/TextOfImageWalletAltynai"
         android:layout_width="156dp"
         android:layout_height="54dp"
         android:layout_marginBottom="356dp"

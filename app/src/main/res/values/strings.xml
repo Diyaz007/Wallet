@@ -26,4 +26,10 @@
     <string name="google">google</string>
     <string name="backbuttonaltynaiDescription">backbuttonaltynai</string>
     <string name="buttonbackaltynai">buttonbackaltynai</string>
+    <string name="ChangePasswordTextAlt">Change Password</string>
+    <string name="SecondTextChangePasswordAlt">Enter the new password</string>
+    <string name="edittextchangepassalt">password</string>
+    <string name="EditTextChangePassSecondAlt">Confirm password</string>
+    <string name="ButtonTextChangePassAlt">Change password</string>
+    <string name="CongratsOfChangingPass">Your password has been successfully changed!</string>
 </resources>

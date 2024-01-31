@@ -8,11 +8,11 @@
     tools:context=".congratsaltynai">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/congratsOfChangingPassAlt"
         android:layout_width="339dp"
         android:layout_height="150dp"
         android:gravity="center"
-        android:text="Your password has been successfully changed!"
+        android:text="@string/CongratsOfChangingPass"
         android:textColor="@color/white"
         android:textSize="37sp"
         android:textStyle="bold"
@@ -23,6 +23,7 @@
         app:layout_constraintVertical_bias="0.233" />
 
     <ImageView
+        android:id="@+id/TicketCongratsAlt"
         android:layout_width="120sp"
         android:layout_height="120sp"
         android:background="@drawable/ticketaltynai"
