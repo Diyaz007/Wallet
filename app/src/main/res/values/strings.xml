@@ -46,4 +46,24 @@
     <string name="_751_047_834978_usdt_daniyar">751,047.834978 USDT</string>
     <string name="transaction_history_daniyart">Transaction History</string>
     <string name="_1_daniyar">1</string>
+    <string name="sign_up_dani7yar">Sign Up</string>
+    <string name="password_must_contain_at_least_one_capital_letter">passwordproblems_dasniyar</string>
+    <string name="passwordproblemdaniyar">Password must contain at least one capital letter</string>
+    <string name="sendcode"><![CDATA[<u>Send code again</u>]]></string>
+    <string name="send_code_again_daniyari">Send code again</string>
+    <string name="add_payment_method_daniyar">Add payment method</string>
+    <string name="you_don_t_have_any_payment_methods_daniyar">You don\'t have any payment methods</string>
+    <string name="add_payment_method_button_daniuyar">Add Payment Method</string>
+    <string name="trade_history_daniyar">Trade history</string>
+    <string name="date_daniyar">29 нобря 2023</string>
+    <string name="pokupkatextdaniyar">Покупка</string>
+    <string name="audtextdaniyar">AUD</string>
+    <string name="avsraliiyskiy_dollar_textdaniyar">Австралийский доллар</string>
+    <string name="a_19_72_price_daniyar">A$ 19.72</string>
+    <string name="_14_08price_daniyar">$ 14.08</string>
+    <string name="prodazhatext_daniyar">Продажа</string>
+    <string name="create_password">Create password</string>
+    <string name="create_password_daniyar">create_password</string>
+    <string name="create_password_daniyarr">Create password</string>
+    <string name="enter_the_password_and_remember_it_the_password_is_required_to_unlock_the_wallet">Enter the password and remember it. The password is required to unlock the wallet</string>
 </resources>

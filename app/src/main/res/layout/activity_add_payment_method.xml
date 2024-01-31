@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="393dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivityAddPaymentMethod">
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:background="@drawable/button_nazad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045">
+
+    </ImageButton>
+
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:text="@string/add_payment_method_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+        android:layout_width="285dp"
+        android:layout_height="23dp"
+        android:text="@string/you_don_t_have_any_payment_methods_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/imagewasc"
+        android:layout_width="370sp"
+        android:layout_height="47sp"
+        android:background="@drawable/button_background_daniyar"
+        android:text="@string/add_payment_method_button_daniuyar"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

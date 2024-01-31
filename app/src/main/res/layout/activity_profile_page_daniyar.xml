@@ -2,15 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="430sp"
-    android:layout_height="920sp"
+    android:layout_width="393dp"
+    android:layout_height="808dp"
     android:background="@drawable/background"
     tools:context=".Activity_profile_Page_daniyar">
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="24sp"
-        android:layout_height="24sp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:layout_marginTop="50sp"
         android:background="@drawable/back_button_daniyar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,7 +27,7 @@
         android:gravity="center"
         android:text="@string/profile_text_daniyar"
         android:textColor="#FAFAFA"
-        android:textSize="26sp"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +37,8 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="24sp"
-        android:layout_height="24sp"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
         android:background="@drawable/editbutton_daniyar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,8 +50,8 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
         android:background="@drawable/useravatar_daniyar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,17 +176,19 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="398sp"
+        android:layout_width="365sp"
         android:layout_height="18sp"
         android:text="@string/line_daniyar"
         android:textColor="#FAFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.269">
+        app:layout_constraintVertical_bias="0.267">
 
     </TextView>
+
 
     <TextView
         android:id="@+id/textView9"
@@ -200,15 +202,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
-
+        app:layout_constraintVertical_bias="0.291" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
-        android:layout_width="388sp"
+        android:layout_width="360sp"
         android:layout_height="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -218,8 +219,8 @@
         app:layout_constraintVertical_bias="0.362">
 
         <ImageView
-            android:layout_width="34sp"
-            android:layout_height="34sp"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
             android:background="@drawable/icon_btc_daniyar">
 
         </ImageView>
@@ -236,7 +237,7 @@
                 android:layout_marginTop="-2sp"
                 android:text="@string/btc_daniyar"
                 android:textColor="#FAFAFA"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -246,7 +247,7 @@
                 android:layout_height="14sp"
                 android:text="@string/_42_228_86_price_daniyar"
                 android:textColor="#BFBFBF"
-                android:textSize="12sp">
+                android:textSize="11sp">
             </TextView>
 
 
@@ -255,7 +256,7 @@
         <LinearLayout
             android:layout_width="124sp"
             android:layout_height="34sp"
-            android:layout_marginStart="150sp"
+            android:layout_marginStart="120sp"
             android:orientation="vertical">
 
             <TextView
@@ -266,7 +267,7 @@
                 android:gravity="right"
                 android:text="@string/_5_0123_btc_daniyar"
                 android:textColor="#FAFAFA"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold">
             </TextView>
 
@@ -277,7 +278,7 @@
                 android:gravity="right"
                 android:text="@string/_211_663_714978_usdt_daniyar"
                 android:textColor="#BFBFBF"
-                android:textSize="12sp">
+                android:textSize="11sp">
             </TextView>
 
 
@@ -287,7 +288,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="388sp"
+        android:layout_width="360sp"
         android:layout_height="34sp"
         android:layout_marginTop="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -298,8 +299,8 @@
         app:layout_constraintVertical_bias="0.405">
 
         <ImageView
-            android:layout_width="34sp"
-            android:layout_height="34sp"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
             android:background="@drawable/eth_icon_daniyar">
 
         </ImageView>
@@ -312,7 +313,7 @@
 
             <TextView
                 android:layout_width="31sp"
-                android:layout_height="18sp"
+                android:layout_height="16sp"
                 android:layout_marginTop="-2sp"
                 android:text="@string/eth_daniyar"
                 android:textColor="#FAFAFA"
@@ -335,7 +336,7 @@
         <LinearLayout
             android:layout_width="124sp"
             android:layout_height="34sp"
-            android:layout_marginStart="150sp"
+            android:layout_marginStart="120sp"
             android:orientation="vertical">
 
             <TextView
@@ -345,9 +346,8 @@
                 android:layout_marginTop="-2sp"
                 android:gravity="right"
                 android:text="@string/_242_eth_daniyar"
-
                 android:textColor="#FAFAFA"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold">
 
             </TextView>
@@ -359,7 +359,7 @@
                 android:gravity="right"
                 android:text="@string/_539_384_12_usdt_daniyar"
                 android:textColor="#BFBFBF"
-                android:textSize="12sp">
+                android:textSize="11sp">
 
             </TextView>
 
@@ -382,11 +382,11 @@
         app:layout_constraintVertical_bias="0.468">
 
         <TextView
-            android:layout_width="110sp"
-            android:layout_height="26sp"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
             android:text="@string/total_capital_daniyar"
             android:textColor="#FAFAFA"
-            android:textSize="18sp"
+            android:textSize="17sp"
             android:textStyle="bold">
         </TextView>
 
@@ -395,7 +395,7 @@
             android:layout_height="28sp"
             android:text="@string/_751_047_834978_usdt_daniyar"
             android:textColor="#FAFAFA"
-            android:textSize="24sp"
+            android:textSize="22sp"
             android:textStyle="bold">
 
         </TextView>
@@ -405,18 +405,18 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="398sp"
-        android:layout_height="62sp"
-        android:backgroundTint="#00A991"
+        android:layout_width="360sp"
+        android:layout_height="50sp"
+        android:background="@drawable/profilebuttoncorners"
         android:text="@string/transaction_history_daniyart"
         android:textColor="#FAFAFA"
         android:textSize="23sp"
-        app:cornerRadius="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916">
+        app:layout_constraintVertical_bias="0.904">
 
     </Button>
 
