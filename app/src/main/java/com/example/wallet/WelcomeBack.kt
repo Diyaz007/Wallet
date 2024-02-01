@@ -8,4 +8,5 @@ class WelcomeBack : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome_back)
     }
+
 }

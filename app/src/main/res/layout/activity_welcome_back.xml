@@ -114,10 +114,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.539" />
 
-    <ImageView
+    <ToggleButton
         android:id="@+id/ImagePasswordEditTextAlt"
         android:layout_width="23dp"
         android:layout_height="23dp"
+        android:textOff="@string/log_in"
         android:background="@drawable/vector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -179,7 +180,8 @@
         app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.778" />
+        app:layout_constraintVertical_bias="0.79" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
