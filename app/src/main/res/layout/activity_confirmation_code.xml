@@ -11,6 +11,7 @@
         android:id="@+id/backButtonAltynaiConfirm"
         android:layout_width="20sp"
         android:layout_height="30sp"
+        android:onClick="onClickGoMainAlt3"
         android:background="@drawable/backbuttonaltynai"
         android:contentDescription="@string/backbuttonaltynaiDescription"
         app:layout_constraintBottom_toBottomOf="parent"
