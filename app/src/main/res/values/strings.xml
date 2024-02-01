@@ -76,37 +76,5 @@
     <string name="ImageWalletFTMConvert">ImageWalletFTMConvert</string>
     <string name="ImageWalletAAVEConvert">ImageWalletAAVEConvert</string>
 
-    <string name="wallet">Wallet</string>
-    <string name="wallet2">Wallet</string>
-    <string name="welcome_back">Welcome,back!</string>
-    <string name="enter_your_e_mail">Enter your e-mail addres</string>
-    <string name="e_mail_address">E-mail address</string>
-    <string name="enter_your_password">Enter your password</string>
-    <string name="password">Password</string>
-    <string name="wallet_altynai">Wallet_Altynai</string>
-    <string name="walllet">walllet</string>
-    <string name="log_in">Log in</string>
-    <string name="or">or</string>
-    <string name="password_reset">Password reset</string>
-    <string name="write_your_email_address_to_send_the_password_reset_code">Write your email address to send the password reset code</string>
-    <string name="email">Email</string>
-    <string name="send_code">Send code</string>
-    <string name="e">Send Code</string>
-    <string name="confirmation_code">Confirmation code</string>
-    <string name="enter_the_code_sent_to_some_mail_com">Enter the code sent to some@mail.com</string>
-    <string name="_1">1</string>
-    <string name="_2">2</string>
-    <string name="_4">4</string>
-    <string name="_3">3</string>
-    <string name="sign_in_with_google">Sign in with Google</string>
-    <string name="google">google</string>
-    <string name="backbuttonaltynaiDescription">backbuttonaltynai</string>
-    <string name="buttonbackaltynai">buttonbackaltynai</string>
-    <string name="ChangePasswordTextAlt">Change Password</string>
-    <string name="SecondTextChangePasswordAlt">Enter the new password</string>
-    <string name="edittextchangepassalt">password</string>
-    <string name="EditTextChangePassSecondAlt">Confirm password</string>
-    <string name="ButtonTextChangePassAlt">Change password</string>
-    <string name="CongratsOfChangingPass">Your password has been successfully changed!</string>
 
 </resources>
