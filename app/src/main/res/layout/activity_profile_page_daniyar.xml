@@ -8,20 +8,22 @@
     tools:context=".Activity_profile_Page_daniyar">
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton_back_daniyar"
         android:layout_width="20sp"
         android:layout_height="20sp"
         android:layout_marginTop="50sp"
+        android:onClick="onClickGoBackActivity"
         android:background="@drawable/back_button_daniyar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004" />
+        app:layout_constraintVertical_bias="0.004"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView_profile_daniyar"
         android:layout_width="80sp"
         android:layout_height="33sp"
         android:gravity="center"
@@ -36,7 +38,7 @@
         app:layout_constraintVertical_bias="0.05" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton_change_profile_daniyar"
         android:layout_width="20sp"
         android:layout_height="20sp"
         android:background="@drawable/editbutton_daniyar"
@@ -45,11 +47,11 @@
         app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06" />
-
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton_avatar_daniyar"
         android:layout_width="90sp"
         android:layout_height="90sp"
         android:background="@drawable/useravatar_daniyar"
@@ -58,10 +60,11 @@
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
+        app:layout_constraintVertical_bias="0.119"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout_name_surname_daniyar"
         android:layout_width="157sp"
         android:layout_height="41sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,11 +75,13 @@
         app:layout_constraintVertical_bias="0.111">
 
         <LinearLayout
+            android:id="@+id/name_daniyar"
             android:layout_width="45sp"
             android:layout_height="41sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/text_name_daniyar"
                 android:layout_width="34sp"
                 android:layout_height="14sp"
                 android:text="@string/name_daniyar"
@@ -86,29 +91,26 @@
             </TextView>
 
             <TextView
+                android:id="@+id/mike_text_namedaniyar"
                 android:layout_width="45sp"
                 android:layout_height="23sp"
                 android:layout_marginTop="3sp"
                 android:text="@string/mike_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="19sp"
-                android:textStyle="bold"
-
-
-                >
-
+                android:textStyle="bold">
             </TextView>
-
-
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/linearLayoutsurname_daniya"
             android:layout_width="60sp"
             android:layout_height="41sp"
             android:layout_marginStart="52sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/surname_text_daniyar"
                 android:layout_width="51sp"
                 android:layout_height="14sp"
                 android:text="@string/surname_daniyar"
@@ -117,28 +119,22 @@
             </TextView>
 
             <TextView
+                android:id="@+id/textview_name_daniyar"
                 android:layout_width="60sp"
                 android:layout_height="23sp"
                 android:layout_marginTop="3sp"
                 android:text="@string/brown_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="19sp"
-                android:textStyle="bold"
-
-
-                >
-
+                android:textStyle="bold">
             </TextView>
-
-
         </LinearLayout>
 
 
     </LinearLayout>
 
-
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/linearLayout4daniyar"
         android:layout_width="196sp"
         android:layout_height="41sp"
         android:orientation="vertical"
@@ -150,32 +146,28 @@
         app:layout_constraintVertical_bias="0.178">
 
         <TextView
+            android:id="@+id/textviewemail_daniyar"
             android:layout_width="31sp"
             android:layout_height="14sp"
             android:text="@string/email2_daniyar"
             android:textColor="#FFFFFF"
             android:textSize="12sp">
-
         </TextView>
 
         <TextView
+            android:id="@+id/axample_daniyar"
             android:layout_width="196sp"
             android:layout_height="23sp"
             android:layout_marginTop="3sp"
             android:text="@string/example_gmail_com_daniyar"
             android:textColor="#FAFAFA"
             android:textSize="19sp"
-            android:textStyle="bold"
-
-
-            >
-
+            android:textStyle="bold">
         </TextView>
 
     </LinearLayout>
-
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView_line_daniyar"
         android:layout_width="365sp"
         android:layout_height="18sp"
         android:text="@string/line_daniyar"
@@ -186,12 +178,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.267">
-
     </TextView>
 
-
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView_assets_daniyar"
         android:layout_width="63sp"
         android:layout_height="23sp"
         android:layout_marginStart="8sp"
@@ -208,7 +198,7 @@
         app:layout_constraintVertical_bias="0.291" />
 
     <LinearLayout
-        android:id="@+id/linearLayout5"
+        android:id="@+id/linearLayout_BTC_daniyar"
         android:layout_width="360sp"
         android:layout_height="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -219,6 +209,7 @@
         app:layout_constraintVertical_bias="0.362">
 
         <ImageView
+            android:id="@+id/image_BTC_daniyar"
             android:layout_width="30sp"
             android:layout_height="30sp"
             android:background="@drawable/icon_btc_daniyar">
@@ -226,12 +217,14 @@
         </ImageView>
 
         <LinearLayout
+            android:id="@+id/linearLayoutbtc_daniyar"
             android:layout_width="69sp"
             android:layout_height="34sp"
             android:layout_marginStart="10sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/text_btc_daniyar"
                 android:layout_width="31sp"
                 android:layout_height="18sp"
                 android:layout_marginTop="-2sp"
@@ -239,10 +232,10 @@
                 android:textColor="#FAFAFA"
                 android:textSize="14sp"
                 android:textStyle="bold">
-
             </TextView>
 
             <TextView
+                android:id="@+id/BTC_price_daniyar"
                 android:layout_width="69sp"
                 android:layout_height="14sp"
                 android:text="@string/_42_228_86_price_daniyar"
@@ -254,12 +247,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/sum_BTC_daniyar"
             android:layout_width="124sp"
             android:layout_height="34sp"
             android:layout_marginStart="120sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/sum_BTC_daniyar_second"
                 android:layout_width="85sp"
                 android:layout_height="19.5sp"
                 android:layout_gravity="right"
@@ -272,6 +267,7 @@
             </TextView>
 
             <TextView
+                android:id="@+id/money_sum_daniyar"
                 android:layout_width="124sp"
                 android:layout_height="14sp"
                 android:layout_gravity="right"
@@ -287,7 +283,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
+        android:id="@+id/linearLayoutETH_daniyar"
         android:layout_width="360sp"
         android:layout_height="34sp"
         android:layout_marginTop="20sp"
@@ -299,6 +295,7 @@
         app:layout_constraintVertical_bias="0.405">
 
         <ImageView
+            android:id="@+id/image_ETH_daniyar"
             android:layout_width="30sp"
             android:layout_height="30sp"
             android:background="@drawable/eth_icon_daniyar">
@@ -306,23 +303,25 @@
         </ImageView>
 
         <LinearLayout
+            android:id="@+id/linearLayout_ETH_daniyar"
             android:layout_width="69sp"
             android:layout_height="34sp"
             android:layout_marginStart="10sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/ETH_daniyar_text"
                 android:layout_width="31sp"
-                android:layout_height="16sp"
+                android:layout_height="18sp"
                 android:layout_marginTop="-2sp"
                 android:text="@string/eth_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="16sp"
                 android:textStyle="bold">
-
             </TextView>
 
             <TextView
+                android:id="@+id/money_sum_ETH_daniyar"
                 android:layout_width="69sp"
                 android:layout_height="wrap_content"
                 android:text="@string/_2_228_86_price_daniyar"
@@ -334,12 +333,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/amound_ETH_daniyar"
             android:layout_width="124sp"
             android:layout_height="34sp"
             android:layout_marginStart="120sp"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/amound_ETH_daniyar_text"
                 android:layout_width="85sp"
                 android:layout_height="19.5sp"
                 android:layout_gravity="right"
@@ -349,10 +350,10 @@
                 android:textColor="#FAFAFA"
                 android:textSize="16sp"
                 android:textStyle="bold">
-
             </TextView>
 
             <TextView
+                android:id="@+id/money2_sum_ETH_daniyar"
                 android:layout_width="124sp"
                 android:layout_height="14sp"
                 android:layout_gravity="right"
@@ -360,7 +361,6 @@
                 android:text="@string/_539_384_12_usdt_daniyar"
                 android:textColor="#BFBFBF"
                 android:textSize="11sp">
-
             </TextView>
 
 
@@ -369,7 +369,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout6"
+        android:id="@+id/linearLayout_total_capital_daniyar"
         android:layout_width="252sp"
         android:layout_height="55sp"
         android:layout_marginTop="100sp"
@@ -382,6 +382,7 @@
         app:layout_constraintVertical_bias="0.468">
 
         <TextView
+            android:id="@+id/totalcapital_text"
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:text="@string/total_capital_daniyar"
@@ -391,33 +392,33 @@
         </TextView>
 
         <TextView
+            android:id="@+id/totalcapital_USDT"
             android:layout_width="252sp"
             android:layout_height="28sp"
             android:text="@string/_751_047_834978_usdt_daniyar"
             android:textColor="#FAFAFA"
             android:textSize="22sp"
             android:textStyle="bold">
-
         </TextView>
 
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_transaction_daniyar"
         android:layout_width="360sp"
         android:layout_height="50sp"
         android:background="@drawable/profilebuttoncorners"
         android:text="@string/transaction_history_daniyart"
         android:textColor="#FAFAFA"
         android:textSize="23sp"
+        android:onClick="onClickGoAddPaymentActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.904">
-
     </Button>
 
 

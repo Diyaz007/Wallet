@@ -66,4 +66,8 @@
     <string name="create_password_daniyar">create_password</string>
     <string name="create_password_daniyarr">Create password</string>
     <string name="enter_the_password_and_remember_it_the_password_is_required_to_unlock_the_wallet">Enter the password and remember it. The password is required to unlock the wallet</string>
+    <string name="nazad_button_daniyar">nazad_button</string>
+    <string name="button_back_daniyar2">button_Back_daniyar2</string>
+    <string name="dollar">dollar</string>
+    <string name="vremenaya_knopka">временно</string>
 </resources>

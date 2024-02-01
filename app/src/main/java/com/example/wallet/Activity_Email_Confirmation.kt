@@ -15,4 +15,10 @@ class Activity_Email_Confirmation : AppCompatActivity() {
         startActivity(intent)
 
     }
+
+    fun onClickGoBackActivity(view: View){
+        val intent= Intent(this,Activity_go_back_daniyar::class.java)
+        startActivity(intent)
+
+    }
 }

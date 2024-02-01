@@ -8,6 +8,7 @@
     tools:context=".Activity_Trade_History">
 
     <TextView
+        android:id="@+id/trade_history_daniyar"
         android:layout_width="110dp"
         android:layout_height="25dp"
         android:text="@string/trade_history_daniyar"
@@ -22,6 +23,7 @@
         app:layout_constraintVertical_bias="0.099" />
 
     <TextView
+        android:id="@+id/date_daniyar"
         android:layout_width="116dp"
         android:layout_height="25dp"
         android:text="@string/date_daniyar"
@@ -35,17 +37,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.219" />
 
-
     <LinearLayout
+        android:id="@+id/sell_AUD_daniyar"
         android:layout_width="325dp"
         android:layout_height="85dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448">
+        app:layout_constraintVertical_bias="0.458">
 
         <TextView
             android:layout_width="100dp"
@@ -53,20 +54,20 @@
             android:text="@string/prodazhatext_daniyar"
             android:textColor="#7C7C7C"
             android:textSize="14sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="5sp">
 
-
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
-                android:background="@drawable/dollar_icon_daniyar"/>
+                android:background="@drawable/dollar_icon_daniyar"
+                android:contentDescription="@string/dollar" />
 
             <LinearLayout
                 android:layout_width="140dp"
@@ -81,7 +82,7 @@
                     android:layout_height="18dp"
                     android:text="@string/audtextdaniyar"
                     android:textColor="#FAFAFA"
-                    android:textSize="15sp"/>
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="140dp"
@@ -89,8 +90,7 @@
                     android:layout_marginTop="8dp"
                     android:text="@string/avsraliiyskiy_dollar_textdaniyar"
                     android:textColor="#FAFAFA"
-                    android:textSize="12sp"/>
-
+                    android:textSize="12sp" />
 
             </LinearLayout>
 
@@ -107,7 +107,8 @@
                     android:layout_height="16dp"
                     android:text="@string/a_19_72_price_daniyar"
                     android:textColor="#FAFAFA"
-                    android:textSize="15sp"/>
+                    android:textSize="15sp" />
+
                 <TextView
                     android:layout_width="60dp"
                     android:layout_height="14dp"
@@ -115,16 +116,15 @@
                     android:gravity="center_horizontal"
                     android:text="@string/_14_08price_daniyar"
                     android:textColor="#FAFAFA"
-                    android:textSize="13sp"/>
-
+                    android:textSize="13sp" />
             </LinearLayout>
 
         </LinearLayout>
 
-
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/buy_AUD_daniyar"
         android:layout_width="325dp"
         android:layout_height="85dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +147,6 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="5sp">
-
 
             <ImageView
                 android:layout_width="35dp"
@@ -182,7 +181,6 @@
                     android:text="@string/avsraliiyskiy_dollar_textdaniyar">
                 </TextView>
 
-
             </LinearLayout>
 
             <LinearLayout
@@ -211,13 +209,10 @@
                     android:gravity="center_horizontal">
                 </TextView>
 
-
             </LinearLayout>
 
         </LinearLayout>
 
-
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

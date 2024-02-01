@@ -7,8 +7,8 @@
     android:background="@drawable/background"
     tools:context=".Activity_Create_Account">
 
-
     <ImageButton
+        android:id="@+id/back_Button_daniyar2"
         android:layout_width="80dp"
         android:layout_height="25dp"
         android:background="@drawable/button_nazad"
@@ -17,12 +17,12 @@
         app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045">
-
+        app:layout_constraintVertical_bias="0.045"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
     </ImageButton>
 
     <TextView
-        android:id="@+id/textView657"
+        android:id="@+id/textView_create_account"
         android:layout_width="360dp"
         android:layout_height="55dp"
         android:gravity="center_vertical"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.143" />
 
     <EditText
-        android:id="@+id/editText5675"
+        android:id="@+id/editText_your_name_daniyar"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:background="@drawable/button_corners"
@@ -60,14 +60,13 @@
         android:background="@drawable/button_corners"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.041"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.359">
 
-
         <ImageView
-            android:id="@+id/imagedsc"
+            android:id="@+id/kyrgyz_image"
             android:layout_width="30dp"
             android:layout_height="19dp"
             android:layout_gravity="center_vertical"
@@ -77,25 +76,21 @@
         </ImageView>
 
         <TextView
-            android:id="@+id/textdsvs"
+            android:id="@+id/text_region_daniyar"
             android:layout_width="40sp"
             android:layout_height="20sp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="10sp"
-            android:layout_marginTop="-3sp"
+            android:gravity="center"
             android:text="@string/_996"
             android:textColor="#757575"
             android:textSize="16sp"
             android:textStyle="bold">
-
-
         </TextView>
-
-
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editText_phone_number"
         android:layout_width="245sp"
         android:layout_height="60sp"
         android:background="@drawable/button_corners"
@@ -112,7 +107,7 @@
         app:layout_constraintVertical_bias="0.359" />
 
     <EditText
-        android:id="@+id/editTextsdc3"
+        android:id="@+id/editText_year_of_born"
         android:layout_width="370dp"
         android:layout_height="60sp"
         android:background="@drawable/button_corners"
@@ -130,7 +125,7 @@
         tools:ignore="DuplicateClickableBoundsCheck" />
 
     <EditText
-        android:id="@+id/editText2dcsd"
+        android:id="@+id/editText_email"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
@@ -147,7 +142,7 @@
         app:layout_constraintVertical_bias="0.182" />
 
     <EditText
-        android:id="@+id/cdssdc"
+        android:id="@+id/password_edittext"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
@@ -164,7 +159,7 @@
         app:layout_constraintVertical_bias="0.358" />
 
     <ImageButton
-        android:id="@+id/iamsoack"
+        android:id="@+id/text_hide_buttonpassword"
         android:layout_width="26sp"
         android:layout_height="25sp"
         android:background="@drawable/hidetext_daniyar"
@@ -177,11 +172,10 @@
         app:layout_constraintVertical_bias="0.644"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
-
     </ImageButton>
 
     <EditText
-        android:id="@+id/editText4cxv"
+        android:id="@+id/edittext_confirm_password"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
@@ -198,13 +192,12 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <ImageButton
-        android:id="@+id/sadasd"
+        android:id="@+id/hidetext_buttonsecond"
         android:layout_width="26sp"
         android:layout_height="25sp"
         android:background="@drawable/hidetext_daniyar"
         android:textColor="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
@@ -212,11 +205,10 @@
         app:layout_constraintVertical_bias="0.733"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
-
     </ImageButton>
 
     <Button
-        android:id="@+id/imagewasc"
+        android:id="@+id/button_singup"
         android:layout_width="370sp"
         android:layout_height="55sp"
         android:background="@drawable/button_background_daniyar"
@@ -229,7 +221,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.851" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
