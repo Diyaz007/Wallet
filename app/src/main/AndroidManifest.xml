@@ -22,8 +22,7 @@
             android:name=".convert_islam"
             android:exported="false" />
         <activity android:name=".buy_activity_islam"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
