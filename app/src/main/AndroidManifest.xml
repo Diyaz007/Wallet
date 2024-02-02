@@ -12,26 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31" >
-        <activity
-            android:name=".IslamSend"
-            android:exported="false" />
-        <activity
-            android:name=".IslamGet"
-            android:exported="false" />
-        <activity
-            android:name=".convert_islam"
-            android:exported="false" />
-        <activity android:name=".buy_activity_islam"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-
-
-        </activity>
     </application>
 
 </manifest>
