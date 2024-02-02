@@ -13,16 +13,16 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
-            android:name=".congratsaltynai"
+            android:name=".CongratsAltynai"
             android:exported="false" />
         <activity
-            android:name=".changepasswordaltynai"
+            android:name=".ChangePasswordAltynai"
             android:exported="false" />
         <activity
-            android:name=".confirmation_code"
+            android:name=".ConfirmationCode"
             android:exported="false" />
         <activity
-            android:name=".password"
+            android:name=".PasswordAltynai"
             android:exported="false" />
         <activity
             android:name=".WelcomeBack"
@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Wallet_altynai"
+            android:name=".WalletAltynai"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

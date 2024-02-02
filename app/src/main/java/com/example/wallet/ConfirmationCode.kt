@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class
-password : AppCompatActivity() {
+class ConfirmationCode : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_password)
+        setContentView(R.layout.activity_confirmation_code)
     }
-    fun onClickGoMainAlt2(view : View) {
-        val intent = Intent(this, confirmation_code::class.java)
+    fun onClickGoMainAlt3(view : View) {
+        val intent = Intent(this, ChangePasswordAltynai::class.java)
         startActivity(intent)
     }
 }

@@ -11,7 +11,7 @@ class WelcomeBack : AppCompatActivity() {
         setContentView(R.layout.activity_welcome_back)
     }
     fun onClickGoMainAlt1(view : View) {
-        val intent = Intent(this, password::class.java)
+        val intent = Intent(this, PasswordAltynai::class.java)
         startActivity(intent)
     }
 }
