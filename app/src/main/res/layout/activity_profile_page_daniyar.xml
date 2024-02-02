@@ -5,7 +5,7 @@
     android:layout_width="393dp"
     android:layout_height="808dp"
     android:background="@drawable/background"
-    tools:context=".Activity_profile_Page_daniyar">
+    tools:context=".ActivityProfilePageDaniyar">
 
     <ImageButton
         android:id="@+id/imageButton_back_daniyar"
@@ -20,7 +20,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.004"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
 
     <TextView
         android:id="@+id/textView_profile_daniyar"
@@ -228,7 +229,7 @@
                 android:layout_width="31sp"
                 android:layout_height="18sp"
                 android:layout_marginTop="-2sp"
-                android:text="@string/btc_daniyar"
+                android:text="@string/btctext_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="14sp"
                 android:textStyle="bold">
@@ -260,7 +261,7 @@
                 android:layout_gravity="right"
                 android:layout_marginTop="-2sp"
                 android:gravity="right"
-                android:text="@string/_5_0123_btc_daniyar"
+                android:text="@string/_5_0123_btctext_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="16sp"
                 android:textStyle="bold">
@@ -346,7 +347,7 @@
                 android:layout_gravity="right"
                 android:layout_marginTop="-2sp"
                 android:gravity="right"
-                android:text="@string/_242_eth_daniyar"
+                android:text="@string/_242_eth_text_daniyar"
                 android:textColor="#FAFAFA"
                 android:textSize="16sp"
                 android:textStyle="bold">

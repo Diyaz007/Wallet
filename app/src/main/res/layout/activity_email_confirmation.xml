@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="393dp"
     android:layout_height="808dp"
-    tools:context=".Activity_Email_Confirmation"
+    tools:context=".ActivityEmailConfirmationDaniyar"
     android:background="@drawable/background">
 
     <ImageButton

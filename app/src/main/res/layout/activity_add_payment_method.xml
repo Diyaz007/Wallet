@@ -5,7 +5,7 @@
     android:layout_width="393dp"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".ActivityAddPaymentMethod">
+    tools:context=".ActivityAddPaymentMethodDaniyar">
 
     <ImageButton
         android:id="@+id/back_Button_daniyar"

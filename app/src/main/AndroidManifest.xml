@@ -13,22 +13,22 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_Create_password"
+            android:name=".ActivityCreatePasswordDaniyar"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityTradeHistoryDaniyar"
             android:exported="false" />
         <activity
-            android:name=".Activity_Trade_History"
+            android:name=".ActivityAddPaymentMethodDaniyar"
             android:exported="false" />
         <activity
-            android:name=".ActivityAddPaymentMethod"
+            android:name=".ActivityProfilePageDaniyar"
             android:exported="false" />
         <activity
-            android:name=".Activity_profile_Page_daniyar"
+            android:name=".ActivityGoBackDaniyar"
             android:exported="false" />
         <activity
-            android:name=".Activity_go_back_daniyar"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_Email_Confirmation"
+            android:name=".ActivityEmailConfirmationDaniyar"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,10 +38,10 @@
 
         </activity>
         <activity
-            android:name=".Activity_create_account_2_"
+            android:name=".ActivityСreateAccount2Daniyar"
             android:exported="false" />
         <activity
-            android:name=".Activity_Create_Account"
+            android:name=".ActivityCreateAccountDaniyar"
             android:exported="false">
         </activity>
     </application>

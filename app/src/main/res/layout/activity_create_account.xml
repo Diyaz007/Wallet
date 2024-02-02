@@ -5,7 +5,7 @@
     android:layout_width="393dp"
     android:layout_height="808dp"
     android:background="@drawable/background"
-    tools:context=".Activity_Create_Account">
+    tools:context=".ActivityCreateAccountDaniyar">
 
     <ImageButton
         android:id="@+id/back_Button_daniyar2"

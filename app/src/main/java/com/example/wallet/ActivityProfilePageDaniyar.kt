@@ -5,20 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Activity_Email_Confirmation : AppCompatActivity() {
+class ActivityProfilePageDaniyar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_email_confirmation)
+        setContentView(R.layout.activity_profile_page_daniyar)
     }
-    fun onClickGobackCReateAcooun2(view: View){
-        val intent= Intent(this,Activity_create_account_2_::class.java)
+
+    fun onClickGoAddPaymentActivity(view: View){
+        val intent= Intent(this,ActivityAddPaymentMethodDaniyar::class.java)
         startActivity(intent)
 
     }
 
     fun onClickGoBackActivity(view: View){
-        val intent= Intent(this,Activity_go_back_daniyar::class.java)
+        val intent= Intent(this,ActivityGoBackDaniyar::class.java)
         startActivity(intent)
 
     }
+
 }

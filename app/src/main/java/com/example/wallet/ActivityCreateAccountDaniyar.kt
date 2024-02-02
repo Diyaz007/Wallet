@@ -5,16 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Activity_go_back_daniyar : AppCompatActivity() {
+class ActivityCreateAccountDaniyar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_go_back_daniyar)
+        setContentView(R.layout.activity_create_account)
     }
 
-    fun onClickGoprofileActivity(view: View){
-        val intent= Intent(this,Activity_profile_Page_daniyar::class.java)
+    fun onClickGoError(view: View){
+        val intent=Intent(this,ActivityСreateAccount2Daniyar::class.java)
         startActivity(intent)
 
     }
+
 
 }

@@ -6,7 +6,7 @@
     android:layout_height="808dp"
     android:background="@drawable/background"
     android:onClick="onClickGoEmail"
-    tools:context=".Activity_create_account_2_">
+    tools:context=".ActivityСreateAccount2Daniyar">
 
 
     <ImageButton

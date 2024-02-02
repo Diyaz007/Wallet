@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="808dp"
-    tools:context=".Activity_go_back_daniyar"
+    tools:context=".ActivityGoBackDaniyar"
     android:background="@drawable/background">
 
     <TextView
