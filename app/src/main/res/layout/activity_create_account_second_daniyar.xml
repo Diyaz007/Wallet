@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="393dp"
+    android:layout_height="808dp"
+    android:background="@drawable/background"
+    tools:context=".ActivityCreateAccountSecondDaniyar">
+
+
+    <ImageButton
+        android:id="@+id/back_Button_daniyar3"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:background="@drawable/go_back_button_daniyar_second"
+        android:onClick="onClickGobackacccreate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/textView_error_text_daniyar"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:onClick="onClickGoEmail"
+        android:text="@string/passwordproblemdaniyar"
+        android:textColor="#FF4B2B"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <TextView
+        android:id="@+id/textView_create_account_text_daniyar"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:text="@string/create_account_text_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <EditText
+        android:id="@+id/editText_your_name_daniyar2"
+        android:layout_width="370sp"
+        android:layout_height="60sp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/your_name_daniyare"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        android:autofillHints="name" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_region_daniyar"
+        android:layout_width="105sp"
+        android:layout_height="60sp"
+        android:background="@drawable/button_corners_daniyar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359">
+
+        <ImageView
+            android:id="@+id/image_kyrgyz_flag_daniyar"
+            android:layout_width="30dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:background="@drawable/kgz_daniyar"
+            android:importantForAccessibility="no">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text_region_numbers_daniyar"
+            android:layout_width="40sp"
+            android:layout_height="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:gravity="center"
+            android:text="@string/_996"
+            android:textColor="#757575"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <EditText
+        android:inputType="phone"
+        android:autofillHints="phone"
+        android:id="@+id/editText_phone_number2_daniyar"
+        android:layout_width="245sp"
+        android:layout_height="60sp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/phone_number_daniyar"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <EditText
+        android:inputType="date"
+        android:id="@+id/editText_year_of_born2_daniyar"
+        android:layout_width="370sp"
+        android:layout_height="60sp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/year_of_born_dd_mm_yyyy_daniyar"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454"
+        tools:ignore="DuplicateClickableBoundsCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:id="@+id/editText_email2_daniyar"
+        android:layout_width="370sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="338dp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/email_daniyar"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <EditText
+        android:inputType="textVisiblePassword"
+        android:autofillHints="password"
+        android:id="@+id/password_edittext2_daniyar"
+        android:layout_width="370sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="338dp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/password_daniyar"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <ImageButton
+        android:id="@+id/text_hide_buttonpassword2"
+        android:layout_width="26sp"
+        android:layout_height="25sp"
+        android:background="@drawable/vectoraltynai"
+        android:textColor="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no">
+    </ImageButton>
+
+    <EditText
+        android:inputType="textVisiblePassword"
+        android:autofillHints="password"
+        android:id="@+id/editTextconfirm_password2"
+        android:layout_width="370sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="338dp"
+        android:background="@drawable/button_corners_daniyar"
+        android:gravity="center_vertical"
+        android:hint="@string/confirm_password_daniyar"
+        android:textColorHint="#757575"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <ImageButton
+        android:id="@+id/password_hide_text_2"
+        android:layout_width="26sp"
+        android:layout_height="25sp"
+        android:background="@drawable/vectoraltynai"
+        android:textColor="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/button_singup_daniyar"
+        android:layout_width="370sp"
+        android:layout_height="55sp"
+        android:background="@drawable/background_buttons_altynai"
+        android:text="@string/sign_up_dani7yar"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="onClickGoEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
