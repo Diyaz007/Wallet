@@ -11,7 +11,7 @@ class WelcomeBackAltynai : AppCompatActivity() {
         setContentView(R.layout.activity_welcome_back_altynai)
     }
     fun onClickGoMainAlt1(view : View) {
-        val intent = Intent(this, IslamConvert::class.java)
+        val intent = Intent(this, PasswordAltynai::class.java)
         startActivity(intent)
     }
 }

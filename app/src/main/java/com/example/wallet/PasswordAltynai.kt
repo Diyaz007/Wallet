@@ -11,7 +11,7 @@ class PasswordAltynai : AppCompatActivity() {
         setContentView(R.layout.activity_password_altynai)
     }
     fun onClickGoMainAlt2(view : View) {
-        val intent = Intent(this, IslamConvert::class.java)
+        val intent = Intent(this, ConfirmationCodeAltynai::class.java)
         startActivity(intent)
     }
 }
