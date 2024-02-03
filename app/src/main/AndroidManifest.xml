@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityCreateAccountDaniyar"
+            android:exported="false" />
+        <activity
             android:name=".WalletAltynai"
             android:exported="false" />
         <activity
@@ -29,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".WelcomeBackAltynai"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
