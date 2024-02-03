@@ -25,7 +25,7 @@
         android:id="@+id/go_back_button_daniyar"
         android:text="@string/go_back_daniyar2"
         android:textSize="21sp"
-        android:onClick="onClickGoprofileActivity"
+        android:onClick="onClickGoProfileActivity"
         android:layout_width="360dp"
         android:layout_height="55sp"
         android:background="@drawable/background_buttons_altynai"
