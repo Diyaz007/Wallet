@@ -153,7 +153,8 @@
                 android:layout_height="35dp"
                 android:background="@drawable/dollar_icon_daniyar"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="10dp"
+                android:importantForAccessibility="no">
             </ImageView>
 
             <LinearLayout
