@@ -11,7 +11,7 @@ class IslamGet : AppCompatActivity() {
         setContentView(R.layout.activity_islam_get)
     }
 
-    fun onClickGoMain3(view : View) {
+    fun onClickGoMainIslam3(view : View) {
         val intent = Intent(this, IslamSend::class.java)
         startActivity(intent)
     }

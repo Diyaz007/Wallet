@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".buy_activity_islam">
+    tools:context=".IslamBuy">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="411sp"
@@ -40,7 +40,7 @@
             android:layout_height="18dp"
             android:background="@drawable/back_button_buy"
             android:backgroundTint="#605C5C"
-            android:onClick="onClickGoMain"
+            android:onClick="onClickGoMainIslam1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.04"

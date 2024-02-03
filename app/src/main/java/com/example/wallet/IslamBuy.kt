@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class convert_islam : AppCompatActivity() {
+class IslamBuy : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_convert_islam)
+        setContentView(R.layout.activity_buy_islam)
     }
 
-    fun onClickGoMain2(view : View) {
-        val intent = Intent(this, IslamGet::class.java)
+    fun onClickGoMainIslam1(view : View) {
+        val intent = Intent(this, IslamConvert::class.java)
         startActivity(intent)
     }
 }

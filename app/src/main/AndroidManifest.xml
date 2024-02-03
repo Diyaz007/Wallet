@@ -29,7 +29,13 @@
             android:exported="false" />
         <activity
             android:name=".WelcomeBackAltynai"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".IslamSend"
             android:exported="false" />
@@ -37,17 +43,11 @@
             android:name=".IslamGet"
             android:exported="false" />
         <activity
-            android:name=".convert_islam"
+            android:name=".IslamConvert"
             android:exported="false" />
         <activity
-            android:name=".buy_activity_islam"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name=".IslamBuy"
+            android:exported="false" />
     </application>
 
 </manifest>
