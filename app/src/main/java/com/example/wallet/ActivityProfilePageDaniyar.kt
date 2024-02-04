@@ -10,15 +10,16 @@ class ActivityProfilePageDaniyar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile_page_daniyar)
     }
-    fun onClickGoAddPaymentActivity(view: View){
+    fun onClickGoToAddPayment(view: View){
         val intent= Intent(this,ActivityAddPaymentMethodDaniyar::class.java)
         startActivity(intent)
 
     }
 
-    fun onClickGoBackActivity(view: View){
-        val intent= Intent(this,ActivityGoBackDaniyar::class.java)
+    fun onClickGoBackToWelcomeBackFromProfPage(view: View){
+        val intent= Intent(this,WelcomeBackAltynai::class.java)
         startActivity(intent)
 
     }
+
 }

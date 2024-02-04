@@ -17,10 +17,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.099" />
+        app:layout_constraintVertical_bias="0.14" />
 
     <TextView
         android:id="@+id/date_daniyar"
@@ -215,5 +215,36 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/ButtonContinueTradeHistory"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:background="@drawable/background_buttons_altynai"
+        android:text="@string/continueTimeButton"
+        android:textSize="20sp"
+        android:onClick="onClickGoToCreatePassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <ImageButton
+        android:id="@+id/back_Button_tradeHistory"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:onClick="onClickGoToBackToAddPayment"
+        android:background="@drawable/go_back_button_daniyar_second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no">
+    </ImageButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

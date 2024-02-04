@@ -20,6 +20,10 @@ class AnvarProfilePageFive : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onClickGoBackToCreatePass(view : View) {
+        val intent = Intent(this,ActivityCreatePasswordDaniyar::class.java)
+        startActivity(intent)
+    }
     fun onClickGoBackToProfile5FromProfile7(view: View) {}
     fun onClickGoToMainActivityAnvar(view: View) {}
 }
