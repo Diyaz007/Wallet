@@ -4,6 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AnvarProfilePageFive">
+    tools:context=".AnvarProfilePageSeven"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="91dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="15sp"
+            android:layout_height="23sp"
+            android:layout_marginTop="3sp"
+            android:background="@drawable/backbuttonaltynai"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="28dp"
+            android:text="@string/back_profile_page_six"
+
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginStart="7dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="244dp"
+        android:width="398sp"
+        android:height="55sp"
+        android:background="@drawable/backbutton"
+        android:text="@string/copy_manually_back_profile_page_six"
+        android:onClick="onClickGoProfileSixAnvar"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/backbutton"
+        android:text="@string/backup_to_icloud_profile_page_six"
+        android:onClick="onClickGoProfileSevenAnvar"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="390dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/protect_your_wallet_by_creating_a_backup_copy_of_the_seed_phrase_right_now_profile_page_six"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="390dp"
+        android:layout_height="88dp"
+        android:text="@string/MainTextAnvarProfile5"
+        android:textColor="@color/white"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
