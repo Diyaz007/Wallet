@@ -14,4 +14,9 @@ class ActivityCreateAccountDaniyar : AppCompatActivity() {
         val intent = Intent(this, ActivityCreateAccountSecondDaniyar::class.java)
         startActivity(intent)
     }
+
+    fun onClickGoBackToWelcomeBackFromCreateAcc(view: View) {
+        val intent = Intent(this, WelcomeBackAltynai::class.java)
+        startActivity(intent)
+    }
 }

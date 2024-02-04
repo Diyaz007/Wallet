@@ -13,7 +13,7 @@
         android:layout_height="25dp"
         android:background="@drawable/go_back_button_daniyar_second"
         android:contentDescription="@string/button_back_daniyar2"
-        android:onClick="onClickGoBackCreateAccount2"
+        android:onClick="onClickGoBackToCreateAccount2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.035"

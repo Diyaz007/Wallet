@@ -11,6 +11,7 @@
         android:id="@+id/back_Button_daniyar2"
         android:layout_width="80dp"
         android:layout_height="25dp"
+        android:onClick="onClickGoBackToWelcomeBackFromCreateAcc"
         android:background="@drawable/go_back_button_daniyar_second"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

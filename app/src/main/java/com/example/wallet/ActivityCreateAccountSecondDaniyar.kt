@@ -10,7 +10,7 @@ class ActivityCreateAccountSecondDaniyar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_account_second_daniyar)
     }
-    fun onClickGoEmail(view: View) {
+    fun onClickGoToEmail(view: View) {
         val intent = Intent(this, ActivityEmailConfirmationDaniyar::class.java)
         startActivity(intent)
     }
