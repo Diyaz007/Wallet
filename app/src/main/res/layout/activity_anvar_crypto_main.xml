@@ -4,6 +4,714 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".AnvarCryptoMainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginStart="17sp"
+        android:layout_marginTop="71sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:layout_marginStart="2.04sp"
+            android:layout_marginTop="1.67sp"
+            android:background="@drawable/settingicon"
+            android:onClick="onClickGoMain"
+            android:importantForAccessibility="no" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="66dp"
+
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <LinearLayout
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginStart="368sp"
+        android:layout_marginTop="71sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:layout_width="20sp"
+            android:layout_height="20dp"
+            android:background="@drawable/avatarusersvgrepo" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="398dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border_search_buy"
+        android:hint="@string/search_hint_buyIslam"
+        android:textColorHint="#A3A1A1"
+        android:paddingStart="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <LinearLayout
+        android:layout_width="16sp"
+        android:layout_height="16sp"
+        android:layout_marginStart="17sp"
+        android:layout_marginTop="158sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="16sp"
+            android:layout_marginTop="2.4sp"
+            android:background="@drawable/eye"
+            android:importantForAccessibility="no" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="104dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="42sp"
+        android:layout_marginTop="157sp"
+        android:text="@string/mainwallet"
+        android:textColor="#FAFAFA"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="74dp"
+        android:layout_height="36dp"
+        android:text="@string/_0_00_page3"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <ImageButton
+        android:layout_width="10dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="158sp"
+        android:layout_marginTop="163sp"
+        android:background="@drawable/sbtrct_btn"
+        android:onClick="onClickGoMainPage2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="36sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="243sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36sp"
+            android:background="@drawable/sendicon"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="-33sp"
+            android:layout_marginTop="48sp"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="45sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="111sp"
+        android:layout_marginTop="243sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36sp"
+            android:layout_marginStart="4sp"
+            android:background="@drawable/receiveicon"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="45sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="-41sp"
+            android:layout_marginTop="48sp"
+            android:text="@string/receive"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="36sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="192sp"
+        android:layout_marginTop="243sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36sp"
+            android:background="@drawable/buyicon" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="-33sp"
+            android:layout_marginTop="48sp"
+            android:gravity="center"
+            android:text="@string/buy"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="36sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="268sp"
+        android:layout_marginTop="243sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36sp"
+            android:background="@drawable/swapicon" />
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="-33sp"
+            android:layout_marginTop="48sp"
+            android:text="@string/swap"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="66sp"
+        android:layout_height="62sp"
+        android:layout_marginStart="329sp"
+        android:layout_marginTop="243sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36sp"
+            android:layout_marginStart="13sp"
+            android:background="@drawable/addcryptoicon"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:layout_width="66sp"
+            android:layout_height="14sp"
+            android:layout_marginStart="-50sp"
+            android:layout_marginTop="48sp"
+            android:text="@string/add_crypto"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="59dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="88sp"
+        android:layout_marginTop="338.11sp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/crypto"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="297sp"
+        android:layout_marginTop="338sp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/nfts"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="385sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/btcislamlogo"
+            android:importantForAccessibility="no" />
+
+        <FrameLayout
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="8sp">
+
+            <TextView
+                android:layout_width="31dp"
+                android:layout_height="18dp"
+                android:text="@string/btc"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="19sp"
+                android:text="@string/_42_228_86_0_26"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="193sp">
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="18sp"
+                android:layout_marginStart="25sp"
+                android:gravity="center"
+                android:text="@string/_0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="-36sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:text="@string/_0_00"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="493sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/bnbtwoislamlogo" />
+
+        <FrameLayout
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="8sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bnb"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="19sp"
+                android:text="@string/_250_28_7_88"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="193sp">
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="18sp"
+                android:layout_marginStart="25sp"
+                android:gravity="center"
+                android:text="@string/bnb_0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="-36sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:text="@string/bnb_0_00"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="439sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/ethislamlogo"
+            android:importantForAccessibility="no" />
+
+        <FrameLayout
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="8sp">
+
+            <TextView
+                android:layout_width="31dp"
+                android:layout_height="18dp"
+                android:text="@string/eth"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="19sp"
+                android:text="@string/_2_228_86_0_26"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="193sp">
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="18sp"
+                android:layout_marginStart="25sp"
+                android:gravity="center"
+                android:text="@string/_0_1"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="-36sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:text="@string/eth_0_00"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="601sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/maticislamlogo"
+            android:importantForAccessibility="no" />
+
+        <FrameLayout
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="8sp">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="18dp"
+                android:text="@string/matic"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="19sp"
+                android:text="@string/_0_86_1_67"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="193sp">
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="18sp"
+                android:layout_marginStart="25sp"
+                android:gravity="center"
+                android:text="@string/matic_0"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="-36sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:text="@string/matic_0_00"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="547sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/twtbnbislamlogo"
+            android:importantForAccessibility="no" />
+
+        <FrameLayout
+            android:layout_width="113dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="8sp">
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="18dp"
+                android:text="@string/twt_bnb_smart_chain_1"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="113dp"
+                android:layout_height="14dp"
+                android:layout_marginTop="19sp"
+                android:text="@string/_1_19_2_15_1"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="37dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="193sp">
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="18sp"
+                android:layout_marginStart="25sp"
+                android:gravity="center"
+                android:text="@string/_0_2"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="14dp"
+                android:layout_marginStart="-36sp"
+                android:layout_marginTop="15sp"
+                android:gravity="center"
+                android:text="@string/maric_0_00"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="182dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="667.85sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:onClick="onClickGoMainPage4"
+        android:text="@string/manage_crypto_page1"
+        android:textColor="#9B42C5"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
