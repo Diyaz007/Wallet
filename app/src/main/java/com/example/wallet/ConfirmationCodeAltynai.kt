@@ -10,7 +10,12 @@ class ConfirmationCodeAltynai : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_confirmation_code_altynai)
     }
-    fun onClickGoMainAlt3(view : View) {
+    fun onClickGoBackToPassReset(view : View) {
+        val intent = Intent(this, PasswordAltynai::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickGoToChangePass(view : View) {
         val intent = Intent(this, ChangePasswordAltynai::class.java)
         startActivity(intent)
     }

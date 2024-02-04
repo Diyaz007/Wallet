@@ -11,7 +11,7 @@
         android:id="@+id/backButtonAltynaiConfirm"
         android:layout_width="20sp"
         android:layout_height="30sp"
-        android:onClick="onClickGoMainAlt3"
+        android:onClick="onClickGoBackToPassReset"
         android:background="@drawable/backbuttonaltynai"
         android:contentDescription="@string/backbuttonaltynaiDescription"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,5 +115,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.467" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:background="@drawable/background_buttons_altynai"
+        android:text="@string/continueTimeButton"
+        android:textSize="25sp"
+        android:onClick="onClickGoToChangePass"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,8 +10,13 @@ class ChangePasswordAltynai : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_change_password_altynai)
     }
-    fun onClickGoMainAlt4(view : View) {
+    fun onClickGoToCongrats(view : View) {
         val intent = Intent(this, CongratsAltynai::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickGoBackToConfCode(view : View) {
+        val intent = Intent(this, ConfirmationCodeAltynai::class.java)
         startActivity(intent)
     }
 }

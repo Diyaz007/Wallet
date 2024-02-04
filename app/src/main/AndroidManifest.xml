@@ -17,13 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".AnvarCryptoMainActivity4"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".AnvarCryptoMainActivity3"
             android:exported="false" />
@@ -80,7 +74,13 @@
             android:exported="false" />
         <activity
             android:name=".WelcomeBackAltynai"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".IslamSend"
             android:exported="false" />

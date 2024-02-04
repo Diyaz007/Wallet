@@ -37,7 +37,7 @@
         android:layout_width="330sp"
         android:layout_height="50sp"
         android:text="@string/testbuttoncongrats"
-        android:onClick="onClickGoMainAlt5"
+        android:onClick="onClickGoBackToWelcomeBackFromCongrats"
         android:textSize="20sp"
         android:textStyle="bold"
         android:background="@drawable/background_buttons_altynai"

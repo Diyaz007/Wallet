@@ -10,8 +10,8 @@ class CongratsAltynai : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_congrats_altynai)
     }
-    fun onClickGoMainAlt5(view : View) {
-        val intent = Intent(this, ActivityCreateAccountDaniyar::class.java)
+    fun onClickGoBackToWelcomeBackFromCongrats(view : View) {
+        val intent = Intent(this, WelcomeBackAltynai::class.java)
         startActivity(intent)
     }
 }

@@ -10,8 +10,12 @@ class WelcomeBackAltynai : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome_back_altynai)
     }
-    fun onClickGoMainAlt1(view : View) {
+    fun onClickGoToPassResetAlt(view : View) {
         val intent = Intent(this, PasswordAltynai::class.java)
+        startActivity(intent)
+    }
+    fun onClickGoToCreateAccount(view : View) {
+        val intent = Intent(this, ActivityCreateAccountDaniyar::class.java)
         startActivity(intent)
     }
 }
