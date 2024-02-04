@@ -40,7 +40,7 @@
             android:layout_height="18dp"
             android:background="@drawable/back_button_buy"
             android:backgroundTint="#605C5C"
-            android:onClick="onClickGoMainIslam1"
+            android:onClick="onClickGoBackToMainAnvarFromBuy"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.04"

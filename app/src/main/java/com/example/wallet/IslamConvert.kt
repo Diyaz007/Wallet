@@ -11,8 +11,8 @@ class IslamConvert : AppCompatActivity() {
         setContentView(R.layout.activity_convert_islam)
     }
 
-    fun onClickGoMainIslam2(view : View) {
-        val intent = Intent(this, IslamGet::class.java)
+    fun onClickGoBackToMainAnvarFromConvert(view : View) {
+        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
         startActivity(intent)
     }
 }

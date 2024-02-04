@@ -11,8 +11,8 @@ class IslamGet : AppCompatActivity() {
         setContentView(R.layout.activity_islam_get)
     }
 
-    fun onClickGoMainIslam3(view : View) {
-        val intent = Intent(this, IslamSend::class.java)
+    fun onClickGoBackToMainAnvarFromGet(view : View) {
+        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
         startActivity(intent)
     }
 }
