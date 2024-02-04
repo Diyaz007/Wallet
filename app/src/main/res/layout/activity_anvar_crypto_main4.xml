@@ -148,7 +148,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.242"
-        android:background="#6D31ED"/>
+        android:background="@drawable/swich"/>
 
     <TextView
         android:id="@+id/textView11"
