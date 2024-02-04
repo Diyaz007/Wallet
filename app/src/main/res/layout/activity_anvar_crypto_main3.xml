@@ -14,7 +14,7 @@
         android:layout_marginTop="35sp"
         android:background="@drawable/backbutton_daniyar"
 
-        android:onClick="onClickGoMainAnvarMainAct"
+        android:onClick="onClickGoBackToMainAnvarFromMainAnvar3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

@@ -26,6 +26,7 @@
         android:id="@+id/back"
         android:layout_width="20dp"
         android:layout_height="20dp"
+        android:onClick="onClickGoBackToMainAnvarFromMainAnvar4"
         android:background="@drawable/backbutton_daniyar"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"

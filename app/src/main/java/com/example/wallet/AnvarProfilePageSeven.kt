@@ -22,4 +22,5 @@ class AnvarProfilePageSeven : AppCompatActivity() {
 
     fun onClickGoProfileSixAnvar(view: View) {}
     fun onClickGoProfileSevenAnvar(view: View) {}
+    fun onClickGoBackToCreatePass(view: View) {}
 }

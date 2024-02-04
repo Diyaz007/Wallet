@@ -26,7 +26,7 @@
             android:layout_marginStart="2.04sp"
             android:layout_marginTop="1.67sp"
             android:background="@drawable/settingicon"
-            android:onClick="onClickGoMain"
+            android:onClick="onClickGoToMainActivity3Anvar"
             android:importantForAccessibility="no" />
 
 
@@ -64,6 +64,7 @@
         <ImageButton
             android:layout_width="20sp"
             android:layout_height="20dp"
+            android:onClick="onClickGoToProfilePageFromMainAnvar"
             android:background="@drawable/avatarusersvgrepo" />
 
     </LinearLayout>
@@ -163,9 +164,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:layout_width="36dp"
             android:layout_height="36sp"
+            android:onClick="onClickGoToSendPageFromMainAnvar"
             android:background="@drawable/sendicon"
             android:importantForAccessibility="no" />
 
@@ -193,10 +195,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:layout_width="36dp"
             android:layout_height="36sp"
             android:layout_marginStart="4sp"
+            android:onClick="onClickGoToReceivePageFromMainAnvar"
             android:background="@drawable/receiveicon"
             android:importantForAccessibility="no" />
 
@@ -225,9 +228,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:layout_width="36dp"
             android:layout_height="36sp"
+            android:onClick="onClickGoToBuyPageFromMainAnvar"
             android:background="@drawable/buyicon" />
 
         <TextView
@@ -255,9 +259,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:layout_width="36dp"
             android:layout_height="36sp"
+            android:onClick="onClickGoToConvertPageFromMainAnvar"
             android:background="@drawable/swapicon" />
 
         <TextView
@@ -284,10 +289,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
-        <ImageView
+        <ImageButton
             android:layout_width="36dp"
             android:layout_height="36sp"
             android:layout_marginStart="13sp"
+            android:onClick="onClickGoToMainActivity2Anvar"
             android:background="@drawable/addcryptoicon"
             android:importantForAccessibility="no" />
 
@@ -700,7 +706,7 @@
         android:layout_marginTop="667.85sp"
         android:background="?android:attr/selectableItemBackground"
         android:gravity="center"
-        android:onClick="onClickGoMainPage4"
+        android:onClick="onClickGoToMainActivity4Anvar"
         android:text="@string/manage_crypto_page1"
         android:textColor="#9B42C5"
         android:textSize="19sp"
