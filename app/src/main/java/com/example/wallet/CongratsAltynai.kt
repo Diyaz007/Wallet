@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class IslamGet : AppCompatActivity() {
+class CongratsAltynai : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_islam_get)
+        setContentView(R.layout.activity_congrats_altynai)
     }
-
-    fun onClickGoBackToMainAnvarFromGet(view : View) {
-        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
+    fun onClickGoBackToWelcomeBackFromCongrats(view : View) {
+        val intent = Intent(this, WelcomeBackAltynai::class.java)
         startActivity(intent)
     }
 }

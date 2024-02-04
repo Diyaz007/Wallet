@@ -40,7 +40,7 @@
             android:layout_height="22dp"
             android:background="@drawable/back_button_buy"
             android:backgroundTint="#605C5C"
-            android:onClick="onClickGoMain3"
+            android:onClick="onClickGoBackToMainAnvarFromGet"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.04"
@@ -64,7 +64,9 @@
             app:layout_constraintHorizontal_bias="0.476"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.083" />
+            app:layout_constraintVertical_bias="0.083"
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <TextView
             android:id="@+id/all_networks_get_islam"
@@ -105,7 +107,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.216" />
+            app:layout_constraintVertical_bias="0.216"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_btcPriceGet"
@@ -130,7 +133,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.282" />
+            app:layout_constraintVertical_bias="0.282"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_ethGet"
@@ -170,7 +174,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.347" />
+            app:layout_constraintVertical_bias="0.347"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_bnbGet"
@@ -210,7 +215,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.415" />
+            app:layout_constraintVertical_bias="0.415"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_TwtBnb"
@@ -250,7 +256,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.482" />
+            app:layout_constraintVertical_bias="0.482"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_MaticGet"
@@ -290,7 +297,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.543" />
+            app:layout_constraintVertical_bias="0.543"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_BnbSecondGet"
@@ -330,7 +338,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.611" />
+            app:layout_constraintVertical_bias="0.611"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_xrpGet"
@@ -370,7 +379,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.677" />
+            app:layout_constraintVertical_bias="0.677"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_bchGet"
@@ -410,7 +420,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.736" />
+            app:layout_constraintVertical_bias="0.736"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_ltcGet"
@@ -450,7 +461,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.798" />
+            app:layout_constraintVertical_bias="0.798"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_xlmGet"
@@ -490,7 +502,8 @@
             app:layout_constraintHorizontal_bias="0.058"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.856" />
+            app:layout_constraintVertical_bias="0.856"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/allCrypto_trxGet"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="808dp"
+    tools:context=".ActivityGoBackDaniyar"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView_daniyar"
+        android:layout_width="393sp"
+        android:layout_height="105sp"
+        android:gravity="center"
+        android:text="@string/we_have_sent_an_email_confirmation_link_to_some_mail_com_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352"/>
+
+    <Button
+        android:id="@+id/go_back_button_daniyar"
+        android:text="@string/go_back_daniyar2"
+        android:textSize="21sp"
+        android:onClick="onClickGoProfileActivity"
+        android:layout_width="360dp"
+        android:layout_height="55sp"
+        android:background="@drawable/background_buttons_altynai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.587" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

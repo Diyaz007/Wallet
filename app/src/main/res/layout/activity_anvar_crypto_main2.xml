@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AnvarCryptoMainActivity2">
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="862dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_islam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="17sp"
+            android:layout_height="17sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="14sp">
+
+            <ImageButton
+                android:id="@+id/icon_page2"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/back_button_buy"
+                android:onClick="onClickGoBackToMainAnvarFromMainAnvar2"
+                android:importantForAccessibility="no" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="125sp"
+            android:layout_marginTop="12sp">
+
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="28dp"
+                android:gravity="center"
+                android:text="@string/wallets"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="130sp"
+            android:layout_marginTop="14sp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/addbuttonanvar"
+                android:importantForAccessibility="no" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="-344sp"
+            android:layout_marginTop="78sp"
+            android:text="@string/multi_coin_wallets"
+            android:textColor="#BDC1CA"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="94dp"
+            android:layout_marginStart="-168sp"
+            android:layout_marginTop="104sp"
+            android:background="@drawable/backpage2">
+
+            <ImageView
+                android:id="@+id/security"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="13sp"
+                android:layout_marginTop="13sp"
+                android:background="@drawable/securityanvar"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:id="@+id/main_wallet"
+                android:layout_width="81dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="7sp"
+                android:layout_marginTop="9.53sp"
+                android:text="@string/main_wallet"
+                android:textColor="#171A1F" />
+
+            <TextView
+                android:id="@+id/wallet_coin"
+                android:layout_width="118dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="-81sp"
+                android:layout_marginTop="32.01sp"
+                android:text="@string/multi_coin_wallet"
+                android:textColor="#BDC1CA" />
+
+            <TextView
+                android:id="@+id/BackUpTo"
+                android:layout_width="123dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="-155sp"
+                android:layout_marginTop="71.03sp"
+                android:text="@string/back_up_to_icloud"
+                android:textColor="#9B42C5" />
+
+            <ImageView
+                android:id="@+id/paintimage"
+                android:layout_width="3dp"
+                android:layout_height="13dp"
+                android:layout_marginStart="220sp"
+                android:layout_marginTop="22sp"
+                android:background="@drawable/threepointanvar"
+                android:importantForAccessibility="no" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

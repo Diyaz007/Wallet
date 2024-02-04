@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class convert_islam : AppCompatActivity() {
+class AnvarCryptoMainActivity4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_convert_islam)
+        setContentView(R.layout.activity_anvar_crypto_main4)
     }
-
-    fun onClickGoMain2(view : View) {
-        val intent = Intent(this, IslamGet::class.java)
+    fun onClickGoBackToMainAnvarFromMainAnvar4(view: View) {
+        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
         startActivity(intent)
     }
 }

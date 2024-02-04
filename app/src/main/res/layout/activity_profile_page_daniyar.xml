@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="393dp"
+    android:layout_height="808dp"
+    android:background="@drawable/background"
+    tools:context=".ActivityProfilePageDaniyar">
+
+    <ImageButton
+        android:id="@+id/imageButton_back_daniyar"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="50sp"
+        android:onClick="onClickGoBackToWelcomeBackFromProfPage"
+        android:background="@drawable/backbutton_daniyar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/textView_profile_daniyar"
+        android:layout_width="80sp"
+        android:layout_height="33sp"
+        android:gravity="center"
+        android:text="@string/profile_text_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageButton
+        android:id="@+id/imageButton_change_profile_daniyar"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:background="@drawable/editbutton_daniyar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        android:importantForAccessibility="no" />
+
+    <ImageButton
+        android:id="@+id/imageButton_avatar_daniyar"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:background="@drawable/useravatar_daniyar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAccessibility="no" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_name_surname_daniyar"
+        android:layout_width="157sp"
+        android:layout_height="41sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111">
+
+        <LinearLayout
+            android:id="@+id/name_daniyar"
+            android:layout_width="45sp"
+            android:layout_height="41sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_name_daniyar"
+                android:layout_width="34sp"
+                android:layout_height="14sp"
+                android:text="@string/name_daniyar"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/mike_text_namedaniyar"
+                android:layout_width="45sp"
+                android:layout_height="23sp"
+                android:layout_marginTop="3sp"
+                android:text="@string/mike_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="19sp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutsurname_daniyar"
+            android:layout_width="60sp"
+            android:layout_height="41sp"
+            android:layout_marginStart="52sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/surname_text_daniyar"
+                android:layout_width="51sp"
+                android:layout_height="14sp"
+                android:text="@string/surname_daniyar"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textview_name_daniyar"
+                android:layout_width="60sp"
+                android:layout_height="23sp"
+                android:layout_marginTop="3sp"
+                android:text="@string/brown_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="19sp"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4daniyar"
+        android:layout_width="196sp"
+        android:layout_height="41sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178">
+
+        <TextView
+            android:id="@+id/textviewemail_daniyar"
+            android:layout_width="31sp"
+            android:layout_height="14sp"
+            android:text="@string/email2_daniyar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/axample_daniyar"
+            android:layout_width="196sp"
+            android:layout_height="23sp"
+            android:layout_marginTop="3sp"
+            android:text="@string/example_gmail_com_daniyar"
+            android:textColor="#FAFAFA"
+            android:textSize="19sp"
+            android:textStyle="bold">
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_line_daniyar"
+        android:layout_width="365sp"
+        android:layout_height="18sp"
+        android:text="@string/line_daniyar"
+        android:textColor="#FAFAFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_assets_daniyar"
+        android:layout_width="63sp"
+        android:layout_height="23sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="24sp"
+        android:text="@string/assets_daniyar"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_BTC_daniyar"
+        android:layout_width="360sp"
+        android:layout_height="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362">
+
+        <ImageView
+            android:id="@+id/image_BTC_daniyar"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/btcislamlogo"
+            android:importantForAccessibility="no">
+
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutbtc_daniyar"
+            android:layout_width="69sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_btc_daniyar"
+                android:layout_width="31sp"
+                android:layout_height="18sp"
+                android:layout_marginTop="-2sp"
+                android:text="@string/btctext_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="14sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/BTC_price_daniyar"
+                android:layout_width="69sp"
+                android:layout_height="14sp"
+                android:text="@string/_42_228_86_price_daniyar"
+                android:textColor="#BFBFBF"
+                android:textSize="11sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sum_BTC_daniyar"
+            android:layout_width="124sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="120sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sum_BTC_daniyar_second"
+                android:layout_width="85sp"
+                android:layout_height="19.5sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-2sp"
+                android:gravity="end"
+                android:text="@string/_5_0123_btctext_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/money_sum_daniyar"
+                android:layout_width="124sp"
+                android:layout_height="14sp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="@string/_211_663_714978_usdttext_daniyar"
+                android:textColor="#BFBFBF"
+                android:textSize="11sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutETH_daniyar"
+        android:layout_width="360sp"
+        android:layout_height="34sp"
+        android:layout_marginTop="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405">
+
+        <ImageView
+            android:id="@+id/image_ETH_daniyar"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/ethislamlogo"
+            android:importantForAccessibility="no">
+
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_ETH_daniyar"
+            android:layout_width="69sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="10sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ETH_daniyar_text"
+                android:layout_width="31sp"
+                android:layout_height="18sp"
+                android:layout_marginTop="-2sp"
+                android:text="@string/ethtext_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/money_sum_ETH_daniyar"
+                android:layout_width="69sp"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_228_86_price_text_daniyar"
+                android:textColor="#BFBFBF"
+                android:textSize="12sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/amound_ETH_daniyar"
+            android:layout_width="124sp"
+            android:layout_height="34sp"
+            android:layout_marginStart="120sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/amound_ETH_daniyar_text"
+                android:layout_width="85sp"
+                android:layout_height="19.5sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-2sp"
+                android:gravity="end"
+                android:text="@string/_242_eth_text_daniyar"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/money2_sum_ETH_daniyar"
+                android:layout_width="124sp"
+                android:layout_height="14sp"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:text="@string/_539_384_12_usdt_daniyar"
+                android:textColor="#BFBFBF"
+                android:textSize="11sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_total_capital_daniyar"
+        android:layout_width="252sp"
+        android:layout_height="55sp"
+        android:layout_marginTop="100sp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468">
+
+        <TextView
+            android:id="@+id/totalcapital_text"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:text="@string/total_capital_daniyar"
+            android:textColor="#FAFAFA"
+            android:textSize="17sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/totalcapital_USDT"
+            android:layout_width="252sp"
+            android:layout_height="28sp"
+            android:text="@string/_751_047_834978_usdt_daniyar"
+            android:textColor="#FAFAFA"
+            android:textSize="22sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_transaction_daniyat"
+        android:layout_width="360sp"
+        android:layout_height="50sp"
+        android:background="@drawable/profilebuttoncornersdaniyar"
+        android:onClick="onClickGoToAddPayment"
+        android:text="@string/transaction_history_daniyart"
+        android:textColor="#FAFAFA"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

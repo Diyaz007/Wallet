@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class IslamGet : AppCompatActivity() {
+class AnvarProfilePageSix : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_islam_get)
+        setContentView(R.layout.activity_anvar_profile_page_six)
     }
-
-    fun onClickGoBackToMainAnvarFromGet(view : View) {
-        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
+    fun onClickGoBackToProfile5(view : View) {
+        val intent = Intent(this,AnvarProfilePageFive::class.java)
         startActivity(intent)
     }
 }

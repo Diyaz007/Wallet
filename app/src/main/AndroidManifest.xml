@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,76 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityCreatePasswordDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarCryptoMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarProfilePageSeven"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarProfilePageSix"
+            android:exported="false" />
+        <activity
+            android:name=".AnvarProfilePageFive"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTradeHistoryDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddPaymentMethodDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityProfilePageDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGoBackDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityEmailConfirmationDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCreateAccountSecondDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCreateAccountDaniyar"
+            android:exported="false" />
+        <activity
+            android:name=".WalletAltynai"
+            android:exported="false" />
+        <activity
+            android:name=".CongratsAltynai"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordAltynai"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmationCodeAltynai"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordAltynai"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeBackAltynai"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".IslamSend"
             android:exported="false" />
@@ -19,11 +88,11 @@
             android:name=".IslamGet"
             android:exported="false" />
         <activity
-            android:name=".convert_islam"
+            android:name=".IslamConvert"
             android:exported="false" />
-        <activity android:name=".buy_activity_islam"
-            android:exported="false">
-        </activity>
+        <activity
+            android:name=".IslamBuy"
+            android:exported="false" />
     </application>
 
 </manifest>
