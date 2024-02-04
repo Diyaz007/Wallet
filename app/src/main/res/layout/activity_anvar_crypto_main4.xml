@@ -26,7 +26,7 @@
         android:id="@+id/back"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:background="@drawable/send"
+        android:background="@drawable/backbutton_daniyar"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +71,7 @@
         android:id="@+id/click"
         android:layout_width="6dp"
         android:layout_height="5dp"
-        android:background="@drawable/subtract"
+        android:background="@drawable/sbtrct_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.296"
@@ -84,7 +84,7 @@
         android:id="@+id/imageView11"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/btc"
+        android:background="@drawable/btcislamlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -97,7 +97,7 @@
         android:id="@+id/imageView18"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/eth"
+        android:background="@drawable/ethislamlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -139,16 +139,14 @@
 
     <Switch
         android:id="@+id/switchBTC"
-        android:layout_width="40dp"
-        android:layout_height="24dp"
-        android:text=""
+        android:layout_width="50dp"
+        android:layout_height="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.931"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
-        android:background="@drawable/swich"/>
+        app:layout_constraintVertical_bias="0.242" />
 
     <TextView
         android:id="@+id/textView11"
@@ -183,9 +181,8 @@
 
     <Switch
         android:id="@+id/switchETH"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -198,7 +195,7 @@
         android:id="@+id/BnBCrypto"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/bnbcrypto"
+        android:background="@drawable/bnbislamlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -241,9 +238,8 @@
 
     <Switch
         android:id="@+id/switchBnB"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -256,7 +252,7 @@
         android:id="@+id/twt"
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:background="@drawable/twt"
+        android:background="@drawable/twtbnbislamlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -297,9 +293,8 @@
 
     <Switch
         android:id="@+id/switchTWT"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -312,7 +307,7 @@
         android:id="@+id/matic"
         android:layout_width="24dp"
         android:layout_height="22dp"
-        android:background="@drawable/maric"
+        android:background="@drawable/maticislamlogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -352,9 +347,8 @@
 
     <Switch
         android:id="@+id/swichMatic"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -367,7 +361,7 @@
         android:id="@+id/ae"
         android:layout_width="27dp"
         android:layout_height="27dp"
-        android:background="@drawable/ae"
+        android:background="@drawable/aelogoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -407,9 +401,8 @@
 
     <Switch
         android:id="@+id/switchBlD"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -422,7 +415,7 @@
         android:id="@+id/bld"
         android:layout_width="26dp"
         android:layout_height="26dp"
-        android:background="@drawable/bld"
+        android:background="@drawable/bldlogoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -462,9 +455,8 @@
 
     <Switch
         android:id="@+id/switchAE"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -477,7 +469,7 @@
         android:id="@+id/aion"
         android:layout_width="27dp"
         android:layout_height="27dp"
-        android:background="@drawable/aion"
+        android:background="@drawable/aionlogoanvar"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -517,9 +509,8 @@
 
     <Switch
         android:id="@+id/switchAion"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -532,7 +523,7 @@
         android:id="@+id/AKT"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/akt"
+        android:background="@drawable/aktlogoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -572,9 +563,8 @@
 
     <Switch
         android:id="@+id/switchAkt"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -587,7 +577,7 @@
         android:id="@+id/ALGO"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/algo"
+        android:background="@drawable/algologoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
@@ -627,9 +617,8 @@
 
     <Switch
         android:id="@+id/switchALGO"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -642,7 +631,7 @@
         android:id="@+id/APT"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/apt"
+        android:background="@drawable/aptlogoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
@@ -682,9 +671,8 @@
 
     <Switch
         android:id="@+id/switchAPT"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -697,7 +685,7 @@
         android:id="@+id/eth"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:background="@drawable/ethtwo"
+        android:background="@drawable/ethtwologoanvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -737,9 +725,8 @@
 
     <Switch
         android:id="@+id/switchETH2"
-        android:layout_width="40dp"
+        android:layout_width="50dp"
         android:layout_height="24dp"
-        android:background="@drawable/swich"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -747,6 +734,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.982" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
