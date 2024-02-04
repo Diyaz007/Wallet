@@ -12,7 +12,7 @@
         android:layout_height="15dp"
         android:layout_marginStart="20sp"
         android:layout_marginTop="35sp"
-        android:background="@drawable/send"
+        android:background="@drawable/backbutton_daniyar"
 
         android:onClick="onClickGoMainAnvarMainAct"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
             android:layout_width="22dp"
             android:layout_height="22dp"
             android:layout_marginTop="8sp"
-            android:background="@drawable/walletsvgrepo"
+            android:background="@drawable/walletimageislam"
             android:importantForAccessibility="no" />
 
         <TextView
@@ -78,9 +78,9 @@
         <ImageView
             android:layout_width="16dp"
             android:layout_height="28dp"
-            android:layout_marginStart="245sp"
+            android:layout_marginStart="260sp"
             android:layout_marginTop="5sp"
-            android:background="@drawable/arrowicon"
+            android:background="@drawable/button_islam_convert"
             android:importantForAccessibility="no" />
 
 
@@ -148,7 +148,7 @@
 
         android:layout_height="22dp"
         android:layout_marginTop="196sp"
-        android:background="@drawable/coin"
+        android:background="@drawable/pricealertsimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.041"
@@ -176,7 +176,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -190,7 +190,7 @@
         android:layout_width="22dp"
 
         android:layout_height="18dp"
-        android:background="@drawable/addressbook"
+        android:background="@drawable/addressbookimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -218,7 +218,7 @@
         android:id="@+id/imageView3"
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -232,7 +232,7 @@
         android:layout_width="22dp"
 
         android:layout_height="22dp"
-        android:background="@drawable/scan"
+        android:background="@drawable/scanqrimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -260,7 +260,7 @@
         android:id="@+id/imageView6"
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -273,7 +273,7 @@
         android:layout_width="22dp"
         android:layout_height="15dp"
 
-        android:background="@drawable/walletconnect"
+        android:background="@drawable/walletconnectimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -299,7 +299,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -310,9 +310,8 @@
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="22dp"
-
         android:layout_height="22dp"
-        android:background="@drawable/settingsicon"
+        android:background="@drawable/settingicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
@@ -325,7 +324,7 @@
         android:layout_width="104dp"
         android:layout_height="18dp"
         android:layout_marginStart="58sp"
-        android:text="@string/walletconnect_1"
+        android:text="@string/preferencesAnvarMain3"
         android:textColor="#FAFAFA"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -338,7 +337,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -351,7 +350,7 @@
         android:id="@+id/imageView10"
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -363,7 +362,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -375,9 +374,8 @@
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="22dp"
-
         android:layout_height="22dp"
-        android:background="@drawable/lock"
+        android:background="@drawable/securityimagemainthree"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
@@ -404,7 +402,7 @@
         android:layout_width="22dp"
         android:layout_height="22dp"
 
-        android:background="@drawable/notification"
+        android:background="@drawable/notificationimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
@@ -460,7 +458,7 @@
     <ImageView
         android:layout_width="22dp"
         android:layout_height="22dp"
-        android:background="@drawable/securityicon"
+        android:background="@drawable/aboutimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -473,7 +471,7 @@
         android:id="@+id/imageView16"
         android:layout_width="22dp"
         android:layout_height="22dp"
-        android:background="@drawable/x"
+        android:background="@drawable/ximage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -485,7 +483,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -498,7 +496,7 @@
         android:id="@+id/imageView17"
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -510,7 +508,7 @@
     <ImageView
         android:layout_width="22dp"
         android:layout_height="22dp"
-        android:background="@drawable/support"
+        android:background="@drawable/supportimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -550,7 +548,7 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
@@ -563,7 +561,7 @@
         android:id="@+id/imageView13"
         android:layout_width="22dp"
         android:layout_height="22dp"
-        android:background="@drawable/help"
+        android:background="@drawable/helpcenterimage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
@@ -575,7 +573,7 @@
         android:id="@+id/imageView14"
         android:layout_width="16dp"
         android:layout_height="28dp"
-        android:background="@drawable/arrowicon"
+        android:background="@drawable/button_islam_convert"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"

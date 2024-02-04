@@ -291,4 +291,5 @@
     <string name="_0_00_page3">0,00 $</string>
     <string name="manage_crypto_page1">Manage Crypto</string>
     <string name="MainTextAnvarProfile5">Backup of the seed phrase</string>
+    <string name="preferencesAnvarMain3">Preferences</string>
 </resources>
