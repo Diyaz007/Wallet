@@ -1,18 +1,19 @@
-package com.example.wallet
+package com.example.ui.auth.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.wallet.R
 
-class IslamConvert : AppCompatActivity() {
+class GetScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_convert_islam)
+        setContentView(R.layout.activity_islam_get)
     }
 
-    fun onClickGoBackToMainAnvarFromConvert(view : View) {
-        val intent = Intent(this, AnvarCryptoMainActivity::class.java)
+    fun onClickGoBackToMainAnvarFromGet(view : View) {
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
     }
 }
