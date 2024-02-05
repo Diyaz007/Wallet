@@ -1,9 +1,10 @@
-package com.example.wallet
+package com.example.ui.auth.signIn
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.wallet.R
 
 class ActivityCreateAccountSecondDaniyar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,11 +12,11 @@ class ActivityCreateAccountSecondDaniyar : AppCompatActivity() {
         setContentView(R.layout.activity_create_account_second_daniyar)
     }
     fun onClickGoToEmail(view: View) {
-        val intent = Intent(this, ActivityEmailConfirmationDaniyar::class.java)
+        val intent = Intent(this, EmailConfirmActivity::class.java)
         startActivity(intent)
     }
     fun onClickGoBackAccCreate(view: View){
-        val intent= Intent(this,ActivityCreateAccountDaniyar::class.java)
+        val intent= Intent(this, CreateAccountActivity::class.java)
         startActivity(intent)
 
     }

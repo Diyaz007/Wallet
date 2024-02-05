@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".CongratsAltynai">
+    tools:context="com.example.ui.auth.signIn.CongratsActivity">
 
     <TextView
         android:id="@+id/congratsOfChangingPassAlt"
