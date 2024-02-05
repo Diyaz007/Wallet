@@ -325,4 +325,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.773" />
 
+    <Button
+        android:id="@+id/button3test"
+        android:layout_width="167dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#757575"
+        android:text="@string/copy_to_clipboard_profile_page_seven"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
