@@ -144,7 +144,7 @@
         android:layout_marginStart="158sp"
         android:layout_marginTop="163sp"
         android:background="@drawable/sbtrct_btn"
-        android:onClick="onClickGoMainPage2"
+        android:onClick="onClickGoToMainActivity2Anvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
