@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".AnvarCryptoMainActivity">
+    tools:context="com.example.ui.auth.home.HomeActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout3"

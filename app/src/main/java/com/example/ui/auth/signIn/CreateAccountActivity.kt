@@ -1,11 +1,13 @@
-package com.example.wallet
+package com.example.ui.auth.signIn
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.ui.auth.logIn.LogInActivity
+import com.example.wallet.R
 
-class ActivityCreateAccountDaniyar : AppCompatActivity() {
+class CreateAccountActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_account_daniyar)
@@ -16,7 +18,7 @@ class ActivityCreateAccountDaniyar : AppCompatActivity() {
     }
 
     fun onClickGoBackToWelcomeBackFromCreateAcc(view: View) {
-        val intent = Intent(this, WelcomeBackAltynai::class.java)
+        val intent = Intent(this, LogInActivity::class.java)
         startActivity(intent)
     }
 }

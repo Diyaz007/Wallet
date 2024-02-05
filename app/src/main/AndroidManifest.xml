@@ -13,67 +13,67 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityCreatePasswordDaniyar"
+            android:name="com.example.ui.auth.signIn.CreatePasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".AnvarCryptoMainActivity4"
+            android:name="com.example.ui.auth.other.ManageCryptoScreen"
             android:exported="false" />
         <activity
-            android:name=".AnvarCryptoMainActivity3"
+            android:name="com.example.ui.auth.settings.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".AnvarCryptoMainActivity2"
+            android:name="com.example.ui.auth.other.WalletsList"
             android:exported="false" />
         <activity
-            android:name=".AnvarCryptoMainActivity"
+            android:name="com.example.ui.auth.home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".AnvarProfilePageSeven"
+            android:name="com.example.ui.auth.profile.AnvarProfilePageSeven"
             android:exported="false" />
         <activity
-            android:name=".AnvarProfilePageSix"
+            android:name="com.example.ui.auth.profile.AnvarProfilePageSix"
             android:exported="false" />
         <activity
-            android:name=".AnvarProfilePageFive"
+            android:name="com.example.ui.auth.profile.AnvarProfilePageFive"
             android:exported="false" />
         <activity
-            android:name=".ActivityTradeHistoryDaniyar"
+            android:name="com.example.ui.auth.other.TradeScreen"
             android:exported="false" />
         <activity
-            android:name=".ActivityAddPaymentMethodDaniyar"
+            android:name="com.example.ui.auth.other.AddPaymentScreen"
             android:exported="false" />
         <activity
-            android:name=".ActivityProfilePageDaniyar"
+            android:name="com.example.ui.auth.profile.ActivityProfilePageDaniyar"
             android:exported="false" />
         <activity
-            android:name=".ActivityGoBackDaniyar"
+            android:name="com.example.ui.auth.other.GoBackScreen"
             android:exported="false" />
         <activity
-            android:name=".ActivityEmailConfirmationDaniyar"
+            android:name="com.example.ui.auth.signIn.EmailConfirmActivity"
             android:exported="false" />
         <activity
-            android:name=".ActivityCreateAccountSecondDaniyar"
+            android:name="com.example.ui.auth.signIn.ActivityCreateAccountSecondDaniyar"
             android:exported="false" />
         <activity
-            android:name=".ActivityCreateAccountDaniyar"
+            android:name="com.example.ui.auth.signIn.CreateAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".WalletAltynai"
+            android:name="com.example.ui.auth.logIn.SplashScreen"
             android:exported="false" />
         <activity
-            android:name=".CongratsAltynai"
+            android:name="com.example.ui.auth.signIn.CongratsActivity"
             android:exported="false" />
         <activity
-            android:name=".ChangePasswordAltynai"
+            android:name="com.example.ui.auth.logIn.ChangePassword"
             android:exported="false" />
         <activity
-            android:name=".ConfirmationCodeAltynai"
+            android:name="com.example.ui.auth.signIn.ConfirmationCodeActivity"
             android:exported="false" />
         <activity
-            android:name=".PasswordAltynai"
+            android:name="com.example.ui.auth.logIn.PassworReset"
             android:exported="false" />
         <activity
-            android:name=".WelcomeBackAltynai"
+            android:name="com.example.ui.auth.logIn.LogInActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -82,16 +82,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IslamSend"
+            android:name="com.example.ui.auth.home.SendActivity"
             android:exported="false" />
         <activity
-            android:name=".IslamGet"
+            android:name="com.example.ui.auth.home.GetScreen"
             android:exported="false" />
         <activity
-            android:name=".IslamConvert"
+            android:name="com.example.ui.auth.home.ConvertScreen"
             android:exported="false" />
         <activity
-            android:name=".IslamBuy"
+            android:name="com.example.ui.auth.home.BuyScreen"
             android:exported="false" />
     </application>
 
