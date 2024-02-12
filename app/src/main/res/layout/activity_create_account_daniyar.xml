@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="393dp"
-    android:layout_height="808dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context="com.example.ui.auth.signIn.CreateAccountActivity">
 
@@ -65,10 +65,10 @@
         android:background="@drawable/button_corners_daniyar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359">
+        app:layout_constraintVertical_bias="0.369">
 
         <ImageView
             android:id="@+id/kyrgyz_image"
@@ -91,137 +91,140 @@
             android:text="@string/_996"
             android:textColor="#757575"
             android:textSize="16sp"
-            android:textStyle="bold">
-        </TextView>
+            android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <EditText
         android:id="@+id/editText_phone_number"
         android:layout_width="245sp"
         android:layout_height="60sp"
-        android:background="@drawable/button_corners_daniyar"
-        android:gravity="center_vertical"
         android:autofillHints="phone"
-        android:hint="@string/phone_number_daniyar"
-        android:textColorHint="#757575"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359"
-        android:inputType="phone" />
-
-    <EditText
-        android:inputType="date"
-        android:id="@+id/editText_year_of_born"
-        android:layout_width="370dp"
-        android:layout_height="60sp"
         android:background="@drawable/button_corners_daniyar"
         android:gravity="center_vertical"
-        android:hint="@string/year_of_born_dd_mm_yyyy_daniyar"
+        android:hint="@string/phone_number_daniyar"
+        android:inputType="phone"
         android:textColorHint="#757575"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454"
-        tools:ignore="DuplicateClickableBoundsCheck"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.369" />
+
+    <DatePicker
+        android:id="@+id/date_picker_year_of_born"
+        android:layout_width="367dp"
+        android:layout_height="64dp"
+        android:background="@drawable/button_corners_daniyar"
+        android:calendarTextColor="#757575"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:gravity="center_vertical"
+        android:importantForAutofill="no"
+        android:maxDate="01/01/2006"
+        android:minDate="12/02/1924"
+        android:scrollbarSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        tools:ignore="DuplicateClickableBoundsCheck" />
 
     <EditText
-        android:inputType="textEmailAddress"
-        android:autofillHints="emailAddress"
         android:id="@+id/editText_email"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
+        android:autofillHints="emailAddress"
         android:background="@drawable/button_corners_daniyar"
         android:gravity="center_vertical"
         android:hint="@string/email_daniyar"
+        android:inputType="textEmailAddress"
         android:textColorHint="#757575"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <EditText
-        android:inputType="textVisiblePassword"
-        android:autofillHints="password"
         android:id="@+id/password_edittext"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
+        android:autofillHints="password"
         android:background="@drawable/button_corners_daniyar"
         android:gravity="center_vertical"
         android:hint="@string/password_daniyar"
+        android:inputType="textPassword"
         android:textColorHint="#757575"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.358" />
+        app:layout_constraintVertical_bias="0.402" />
 
     <ImageButton
         android:id="@+id/text_hide_buttonpassword"
         android:layout_width="26sp"
         android:layout_height="25sp"
         android:background="@drawable/vectoraltynai"
+        android:importantForAccessibility="no"
         android:textColor="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.644"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:importantForAccessibility="no">
+        app:layout_constraintVertical_bias="0.698"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
     </ImageButton>
 
     <EditText
-        android:autofillHints="password"
-        android:inputType="textVisiblePassword"
         android:id="@+id/edittext_confirm_password"
         android:layout_width="370sp"
         android:layout_height="60sp"
         android:layout_marginTop="338dp"
+        android:autofillHints="password"
         android:background="@drawable/button_corners_daniyar"
         android:gravity="center_vertical"
         android:hint="@string/confirm_password_daniyar"
+        android:inputType="textPassword"
         android:textColorHint="#757575"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.615" />
 
     <ImageButton
         android:id="@+id/hidetext_buttonsecond"
         android:layout_width="26sp"
         android:layout_height="25sp"
         android:background="@drawable/vectoraltynai"
+        android:importantForAccessibility="no"
         android:textColor="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.911"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.733"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-        android:importantForAccessibility="no">
+        app:layout_constraintVertical_bias="0.796"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
 
     </ImageButton>
 
@@ -236,8 +239,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.851" />
+        app:layout_constraintVertical_bias="0.914" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

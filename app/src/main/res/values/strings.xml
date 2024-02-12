@@ -293,4 +293,5 @@
     <string name="MainTextAnvarProfile5">Backup of the seed phrase</string>
     <string name="preferencesAnvarMain3">Preferences</string>
     <string name="continueTimeButton">Continue</string>
+    <string name="default_web_client_id">681538646088-49r2eqo8vpc8mltdvcro81jips43edj8.apps.googleusercontent.com</string>
 </resources>

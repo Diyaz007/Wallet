@@ -118,8 +118,8 @@
         android:id="@+id/ImagePasswordEditTextAlt"
         android:layout_width="23dp"
         android:layout_height="23dp"
-        android:textOff="@string/log_in"
         android:background="@drawable/vectoraltynai"
+        android:textOff="@string/log_in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.837"
@@ -132,9 +132,9 @@
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:background="@drawable/background_buttons_altynai"
+        android:onClick="onClickGoToPassResetAlt"
         android:text="@string/log_in"
         android:textSize="25sp"
-        android:onClick="onClickGoToPassResetAlt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.235"
@@ -161,7 +161,6 @@
         android:layout_height="55dp"
         android:background="@drawable/background_buttons_altynai"
         android:text="@string/sign_in_with_google"
-        android:onClick="onClickGoToCreateAccount"
         android:textSize="20sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -170,6 +169,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.795" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInWithGoogleButtonWBAlt"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/CreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onClickGoToCreateAccount"
+            android:text="Create Account"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:gravity="center"
+            android:onClick="onClickGoToForgotPassword"
+            android:text="Forgot Password?"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <ImageView
         android:id="@+id/ImageOfGoogleWBAlt"
@@ -183,7 +216,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.79" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
