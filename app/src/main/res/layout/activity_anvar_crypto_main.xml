@@ -70,7 +70,7 @@
     </LinearLayout>
 
 
-    <EditText
+    <SearchView
         android:layout_width="398dp"
         android:layout_height="30dp"
         android:background="@drawable/border_search_buy"
