@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ui.auth.home.SendActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411sp"
+        android:layout_height="833dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_buy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/main_text_send_islam"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            android:text="@string/MainTextSendIslam"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <ImageButton
+            android:id="@+id/button_back_send_islam"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/back_button_buy"
+            android:backgroundTint="#605C5C"
+            android:onClick="onClickGoBackToMainAnvarFromSend"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034"
+            android:contentDescription="@string/backButtonIslamGet" />
+
+        <EditText
+            android:id="@+id/edit_text_send_islam"
+            android:layout_width="380sp"
+            android:layout_height="40sp"
+            android:background="@drawable/border_search_buy"
+            android:hint="@string/searchHintGetIslam"
+            android:inputType="text"
+            android:textColorHint="#877E7E"
+            android:paddingStart="15sp"
+            android:autofillHints="username"
+            android:textColor="@color/black"
+            android:paddingEnd="0sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+
+        <TextView
+            android:id="@+id/all_networks_send_islam"
+            android:layout_width="120dp"
+            android:layout_height="24dp"
+            android:text="@string/all_networks_get_islam"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.151" />
+
+        <ImageButton
+            android:id="@+id/openButton_allNetworks_islam_send"
+            android:layout_width="9sp"
+            android:layout_height="9dp"
+            android:layout_marginTop="2sp"
+            android:background="@drawable/sbtrct_btn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.155"
+            android:contentDescription="@string/openAllNetworksIslamGet" />
+
+        <ImageView
+            android:id="@+id/ImageIslamSend"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:background="@drawable/islamsendimage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315"
+            android:contentDescription="@string/send_image_islam_description" />
+
+        <TextView
+            android:id="@+id/IslamMainTextSend"
+            android:layout_width="150sp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="@string/islamImageText"
+            android:textColor="#BFBFBF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.419" />
+
+        <Button
+            android:id="@+id/buttonIslamSend"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:background="@drawable/islamsendbutton"
+            android:text="@string/buttonIslamSend"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.481" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

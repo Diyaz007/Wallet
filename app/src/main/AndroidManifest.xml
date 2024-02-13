@@ -11,10 +11,88 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wallet"
-        tools:targetApi="31"
-        tools:node="merge">
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.ui.auth.signIn.CreatePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.other.ManageCryptoScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.other.WalletsList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.profile.AnvarProfilePageSeven"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.profile.AnvarProfilePageSix"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.profile.AnvarProfilePageFive"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.other.TradeScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.other.AddPaymentScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.profile.ActivityProfilePageDaniyar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.other.GoBackScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.signIn.EmailConfirmActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.signIn.ActivityCreateAccountSecondDaniyar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.signIn.CreateAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.logIn.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.signIn.CongratsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.logIn.ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.signIn.ConfirmationCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.logIn.PassworReset"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.logIn.LogInActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ui.auth.home.SendActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.home.GetScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.home.ConvertScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.auth.home.BuyScreen"
+            android:exported="false" />
     </application>
-
-
 
 </manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="393dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.ui.auth.other.AddPaymentScreen">
+
+    <ImageButton
+        android:id="@+id/back_Button_daniyar"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:onClick="onClickGoBackProfilePageActivity"
+        android:background="@drawable/go_back_button_daniyar_second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"/>
+    <TextView
+        android:id="@+id/add_payment_method"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:text="@string/add_payment_method_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+        android:id="@+id/you_dont_have_payment_text"
+        android:layout_width="285dp"
+        android:layout_height="23dp"
+        android:text="@string/you_don_t_have_any_payment_methods_daniyar"
+        android:textColor="#FAFAFA"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/button_addpaument"
+        android:layout_width="370sp"
+        android:layout_height="47sp"
+        android:background="@drawable/background_buttons_altynai"
+        android:text="@string/add_payment_method_button_daniuyar"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="onClickGoTradeHistoryActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
